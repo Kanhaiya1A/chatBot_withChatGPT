@@ -1,0 +1,592 @@
+
+
+------------------------------------------------------------
+Application started
+17:09:03.917: (I)  9148: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+17:09:03.917: (I)  9148: ice.systeminfo      : Kernel version: "10.0.18362"
+17:09:03.917: (I)  9148: ice.systeminfo      : CPU architecture: "x86_64"
+17:09:03.917: (I)  9148: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+17:09:03.918: (I)  9148: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+17:09:03.918: (I)  9148: ice.systeminfo      : BuildVersion: "1.5.3"
+17:09:03.918: (I)  9148: ice.systeminfo      : DisplayVersion: "1.53"
+17:09:03.919: (I)  9148: ice.systeminfo      : PID: 15240
+17:09:03.919: (I)  9148: ice.systeminfo      : Main thread id: 9148
+17:09:03.919: (I)  9148: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+17:09:03.919: (I)  9148: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+17:09:03.919: (I)  9148: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+17:09:03.919: (I)  9148: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+17:09:03.920: (I)  9148: ice.systeminfo      : Screen 0: primary, scale: 85%, pixelRatio: 1, logDpi: 120, phyDpi: 141.951, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1030}
+17:09:03.920: (I)  9148: ice.systeminfo      : 
+17:09:03.936: (I)  9148: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_IN"
+17:09:03.945: (I)  9148: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+17:09:03.948: (I)  9148: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+17:09:03.948: (I)  9148: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+17:09:05.521: (I)  9148: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+17:09:06.165: (I)  9148: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 644 msec
+17:09:06.165: (I)  9148: app.app             : Application::init                       : Entering 'Init app'
+17:09:06.212: (I)  9148: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+17:09:06.225: (I)  9148: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+17:09:06.225: (I)  9148: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+17:09:06.225: (I)  9148: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+17:09:06.233: (I)  9148: ui.player           : Player::Player                          :     Entering 'Create player'
+17:09:06.274: (I)  9148:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) UHD Graphics 630"
+17:09:06.274: (I)  9148:                     : Player::Player()                        :       --- preview context ---
+17:09:06.274: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+17:09:06.274: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+17:09:06.274: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+17:09:06.274: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+17:09:06.274: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+17:09:07.472: (I)  9148:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+17:09:07.495: (I)  9148:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) UHD Graphics 630"
+17:09:07.495: (I)  9148:                     : Player::Player()                        :       --- mediaprocessor context ---
+17:09:07.495: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+17:09:07.495: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+17:09:07.495: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+17:09:07.495: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+17:09:07.495: (I)  9148:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+17:09:07.517: (I)  9148: ice.splash          : IceSplash::Private::onMinDurationReached:       Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+17:09:07.517: (I)  9148: ice.splash          : IceSplash::Private::onMinDurationReached:       Main window still not exists, connect to iceUi->mainWindowCreated()
+17:09:07.564: (W) 19384:                     :       QObject::connect: Cannot queue arguments of type 'DeviceInitState'
+(Make sure 'DeviceInitState' is registered using qRegisterMetaType().)
+17:09:07.577: (I)  9148: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1344
+17:09:08.004: (I)  9148: ice.windowgeometry  : IceWindow::readState()                  :     Restore saved geometry: QRect(460,165 1021x700)
+17:09:08.004: (I)  9148: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1779
+17:09:08.096: (I)  9148: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1931
+17:09:08.096: (I)  9148: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+17:09:08.096: (I)  9148: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+17:09:08.096: (I)  9148: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents"
+17:09:08.110: (I)  9148: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+17:09:08.113: (I)  9148: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x1d30d8e0290, name="MainWindow")
+17:09:08.113: (I) 18704: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+17:09:08.175: (I) 18704: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 62
+17:09:08.358: (I)  9148: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+17:09:08.358: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+17:09:08.358: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 2
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+17:09:08.360: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+17:09:08.360: (I)  9148: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Stopped), doc: Doc(My project 5, {eecf353b-42...)
+17:09:08.361: (I) 20424:                     : mediaprocessor::runVideo()              :       Mediaprocessor type:  "PLAY" . Thread ID:  20424
+17:09:08.368: (W)  9148:                     : scrubbingservice::getReader()           :       MF video reader open FAILED! Thread Id:  9148
+17:09:08.368: (W)  9148:                     : scrubbingservice::getReader()           :       Context: scrubbing
+17:09:08.369: (W)  9148:                     : scrubbingservice::getReader()           :       Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+17:09:08.391: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+17:09:08.392: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+17:09:08.392: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+17:09:08.393: (W)  9148:                     : scrubbingservice::getReader()           :       MF video reader open FAILED! Thread Id:  9148
+17:09:08.393: (W)  9148:                     : scrubbingservice::getReader()           :       Context: scrubbing
+17:09:08.393: (W)  9148:                     : scrubbingservice::getReader()           :       Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+17:09:08.410: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 50
+17:09:08.410: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+17:09:08.410: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 3
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+17:09:08.413: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+17:09:08.413: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+17:09:08.413: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+17:09:08.422: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+17:09:08.422: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 9
+17:09:08.422: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+17:09:08.422: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+17:09:08.422: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 9
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+17:09:08.423: (I)  9148: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+17:09:08.424: (I)  9148: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 314
+17:09:08.424: (I)  9148: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 328
+17:09:08.427: (I)  9148: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+17:09:08.428: (I)  9148: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+17:09:08.428: (I)  9148: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+17:09:08.428: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_133429.jpg"
+17:09:08.436: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_134738.jpg"
+17:09:08.439: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140329.jpg"
+17:09:08.441: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140332.jpg"
+17:09:08.441: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140356.jpg"
+17:09:08.442: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140358.jpg"
+17:09:08.443: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140401.jpg"
+17:09:08.444: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140403.jpg"
+17:09:08.445: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140501.jpg"
+17:09:08.446: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140502.jpg"
+17:09:08.447: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_155451.jpg"
+17:09:08.448: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073455.jpg"
+17:09:08.449: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073502.jpg"
+17:09:08.450: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073508.jpg"
+17:09:08.452: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0005.jpg"
+17:09:08.483: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+17:09:13.097: (I)  9148: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=1.53&pid=9&mh=e91e9cfe6bdd799ad8a936be50847486&h=1a69927ccd36ded4ff915388bb990bff"
+17:09:13.644: (W)  9148:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  9148
+17:09:13.644: (W)  9148:                     : scrubbingservice::getReader()           : Context: scrubbing
+17:09:13.644: (W)  9148:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+17:09:13.662: (W)  9148:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  9148
+17:09:13.662: (W)  9148:                     : scrubbingservice::getReader()           : Context: scrubbing
+17:09:13.662: (W)  9148:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+17:09:13.678: (W)  9148:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  9148
+17:09:13.678: (W)  9148:                     : scrubbingservice::getReader()           : Context: scrubbing
+17:09:13.678: (W)  9148:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+17:09:14.318: (W) 21108:                     : audioprocessor::runAudio()              : Can't find audio clip:  "{6de89ea2-5ac3-47bf-bfbc-7fca79499607}"
+17:09:14.323: (W) 21108:                     : audioprocessor::processDocumentAudio()  : Can't find audio clip in source list!!!
+17:09:18.093: (W)  9148: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Update checker reply error: "Operation canceled"
+17:09:41.186: (I)  4468:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:41.222: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0012.jpg"
+17:09:41.224: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0013.jpg"
+17:09:41.225: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0014.jpg"
+17:09:41.227: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0015.jpg"
+17:09:41.228: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0016.jpg"
+17:09:41.229: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0017.jpg"
+17:09:41.230: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0018.jpg"
+17:09:41.232: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0019.jpg"
+17:09:41.233: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0020.jpg"
+17:09:41.234: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0021.jpg"
+17:09:41.236: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0022.jpg"
+17:09:41.237: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0023.jpg"
+17:09:41.238: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0024.jpg"
+17:09:41.240: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0025.jpg"
+17:09:41.241: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0026.jpg"
+17:09:41.243: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0027.jpg"
+17:09:41.244: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0028.jpg"
+17:09:41.245: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0029.jpg"
+17:09:41.247: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0030.jpg"
+17:09:41.248: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0031.jpg"
+17:09:41.252: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0063.jpg"
+17:09:41.253: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0064.jpg"
+17:09:41.254: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0065.jpg"
+17:09:41.255: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0066.jpg"
+17:09:41.256: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0067.jpg"
+17:09:41.257: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0068.jpg"
+17:09:41.259: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0069.jpg"
+17:09:41.260: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0070.jpg"
+17:09:41.261: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0071.jpg"
+17:09:41.263: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0072.jpg"
+17:09:41.264: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0073.jpg"
+17:09:41.265: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0074.jpg"
+17:09:41.267: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0075.jpg"
+17:09:41.268: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0076.jpg"
+17:09:41.269: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0077.jpg"
+17:09:41.270: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0078.jpg"
+17:09:41.272: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0079.jpg"
+17:09:41.273: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0080.jpg"
+17:09:41.275: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0081.jpg"
+17:09:41.276: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0082.jpg"
+17:09:41.280: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0036.jpg"
+17:09:41.281: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0037.jpg"
+17:09:41.282: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0038.jpg"
+17:09:41.283: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0039.jpg"
+17:09:41.285: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0040.jpg"
+17:09:41.286: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0041.jpg"
+17:09:41.287: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0042.jpg"
+17:09:41.288: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0043.jpg"
+17:09:41.290: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0044.jpg"
+17:09:41.291: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0045.jpg"
+17:09:41.292: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0046.jpg"
+17:09:41.294: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0047.jpg"
+17:09:41.295: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0048.jpg"
+17:09:41.296: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0049.jpg"
+17:09:41.298: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0050.jpg"
+17:09:41.299: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0051.jpg"
+17:09:41.300: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0052.jpg"
+17:09:41.302: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0053.jpg"
+17:09:41.303: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0054.jpg"
+17:09:41.304: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0055.jpg"
+17:09:41.309: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0016.jpg"
+17:09:41.310: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0017.jpg"
+17:09:41.311: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0018.jpg"
+17:09:41.312: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0019.jpg"
+17:09:41.314: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0020.jpg"
+17:09:41.315: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0021.jpg"
+17:09:41.316: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0022.jpg"
+17:09:41.318: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0023.jpg"
+17:09:41.319: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0024.jpg"
+17:09:41.320: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0025.jpg"
+17:09:41.322: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0026.jpg"
+17:09:41.323: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0027.jpg"
+17:09:41.324: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0028.jpg"
+17:09:41.326: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0029.jpg"
+17:09:41.327: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0032.jpg"
+17:09:41.328: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0033.jpg"
+17:09:41.330: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0034.jpg"
+17:09:41.331: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0035.jpg"
+17:09:41.332: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0036.jpg"
+17:09:41.334: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0037.jpg"
+17:09:41.338: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0053.jpg"
+17:09:41.339: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0054.jpg"
+17:09:41.341: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0055.jpg"
+17:09:41.342: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0056.jpg"
+17:09:41.343: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0057.jpg"
+17:09:41.344: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0058.jpg"
+17:09:41.346: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0059.jpg"
+17:09:41.347: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0060.jpg"
+17:09:41.348: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0061.jpg"
+17:09:41.350: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0062.jpg"
+17:09:41.351: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0063.jpg"
+17:09:41.352: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0064.jpg"
+17:09:41.354: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0065.jpg"
+17:09:41.355: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0066.jpg"
+17:09:41.357: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0067.jpg"
+17:09:41.358: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0068.jpg"
+17:09:41.359: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0069.jpg"
+17:09:41.361: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0070.jpg"
+17:09:41.362: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0071.jpg"
+17:09:41.363: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0072.jpg"
+17:09:41.367: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0083.jpg"
+17:09:41.368: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0084.jpg"
+17:09:41.370: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0085.jpg"
+17:09:41.371: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0086.jpg"
+17:09:41.372: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0087.jpg"
+17:09:41.373: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0088.jpg"
+17:09:41.375: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0089.jpg"
+17:09:41.376: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0090.jpg"
+17:09:41.377: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0091.jpg"
+17:09:41.379: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0092.jpg"
+17:09:41.380: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0093.jpg"
+17:09:41.381: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0094.jpg"
+17:09:41.382: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0095.jpg"
+17:09:41.384: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0096.jpg"
+17:09:41.385: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0097.jpg"
+17:09:41.386: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0098.jpg"
+17:09:41.388: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0099.jpg"
+17:09:41.389: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0100.jpg"
+17:09:41.391: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0101.jpg"
+17:09:41.392: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0109.jpg"
+17:09:41.397: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/download.jpg"
+17:09:41.399: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+17:09:41.411: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/Screenshot_20200215-183508.png"
+17:09:41.412: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+17:09:41.453: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+17:09:41.455: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+17:09:41.456: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/k1111.jpg"
+17:09:41.457: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+17:09:41.458: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+17:09:41.478: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/images.png"
+17:09:41.487: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/IMG-20200304-WA0038.jpg"
+17:09:41.558: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/download (1).jpg"
+17:09:41.559: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g2.jpg"
+17:09:41.560: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g4.jpg"
+17:09:41.562: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Selfie_(Full_Video)__Gurshabad__Harish_Verma__Simi_Chahal__Jatinder_Shah(256kbps).mp3"
+17:09:41.564: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+17:09:41.566: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g99.jpg"
+17:09:41.567: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - New status??Wedding status??Taaron ka chamakta??latest??Hindi status??lovely??Shadi??love??Whatsapp_d2Qa8eZ3h1o.mp3"
+17:09:41.576: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - marriage anniversary special songs + WhatsApp status lyrics Vedio songs _ janam janam- udit & alka_9gZys_H5Aag_1080p.mp4"
+17:09:41.578: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - Super status tu khich meri photo....._Jbx8Pd4m2Pg_360p.mp4"
+17:09:41.580: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - Super status tu khich meri photo....._Jbx8Pd4m2Pg.mp3"
+17:09:41.582: (W)  9148: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/pkkkk.jpg"
+17:09:41.652: (I) 15004:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469181588 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:43.409: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+17:09:43.410: (I)  4468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+17:09:43.428: (I)  4468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+17:09:43.428: (I)  4468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 18
+17:09:43.502: (I)  9148:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 52 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:43.545: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 135
+17:09:43.570: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:43.630: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 89 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:43.765: (I)  1984:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469183651 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:46.344: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:09:57.564: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:11.092, 110920000)slider: Time(00:11.060, 110600000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:09:57.578: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:11.109, 111090000)slider: Time(00:11.060, 110600000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:09:57.578: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:11.109, 111090000)slider: Time(00:11.060, 110600000), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:09:57.622: (I)  9148:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 44 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:57.628: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 46 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:09:59.361: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:10:32.124: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:32.642, 326420000)slider: Time(00:32.627, 326270000), state: Player::State(Playing), doc: Doc({c490d771-e8)
+17:10:37.737: (W) 20424:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:10:42.827: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:10:44.290: (I)  9148: ui.player           : Player::onPlay()                        : Play from start: clk: Time(00:33.344, 333440000)slider: Time(00:33.344, 333440000), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:11:17.923: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:33.361, 333610000)slider: Time(00:33.327, 333270000), state: Player::State(Playing), doc: Doc({c490d771-e8)
+17:11:24.614: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:27.377, 273770000)slider: Time(00:27.377, 273770000), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:11:28.143: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:30.788, 307880000)slider: Time(00:30.755, 307550000), state: Player::State(Playing), doc: Doc({c490d771-e8)
+17:11:34.774: (I)  9148: ui.player           : Player::onPlay()                        : Play from start: clk: Time(00:31.823, 318230000)slider: Time(00:31.823, 318230000), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:11:36.062: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:29.366, 293660000)slider: Time(00:29.366, 293660000), state: Player::State(Playing), doc: Doc({c490d771-e8)
+17:11:38.969: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:31.843, 318430000)slider: Time(00:31.812, 318120000), state: Player::State(Playing), doc: Doc({c490d771-e8)
+17:11:41.422: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:31.855, 318550000)slider: Time(00:31.855, 318550000), state: Player::State(Paused), doc: Doc({c490d771-e8)
+17:11:41.425: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:31.855, 318550000)slider: Time(00:31.855, 318550000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:11:41.525: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 46 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:11:41.603: (I) 19212:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469301548 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:11:48.104: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Begin export
+17:11:48.105: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:11:48.136: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 31
+17:11:55.051: (I)  9148: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+17:11:55.051: (I) 24100:                     : threadProc()                            : Encoder thread id:  24100
+17:11:55.052: (I) 24100:                     : threadProc()                            : --- start encoding thread ---
+17:11:55.073: (I) 24100:                     : threadProc()                            : --- encoder context ---
+17:11:55.073: (I) 24100:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+17:11:55.073: (I) 24100:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+17:11:55.073: (I) 24100:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+17:11:55.073: (I) 24100:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+17:11:55.073: (I) 24100:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+17:11:55.073: (W) 24100:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:11:55.073: (I) 24100:                     : threadProc()                            : encoding mediaprocessor init done
+17:11:55.073: (I) 19772:                     : mediaprocessor::runVideo()              : Mediaprocessor type:  "ENCODING" . Thread ID:  19772
+17:11:55.078: (I) 24100:                     : threadProc()                            : output format:  mp4
+17:11:55.078: (I) 24100:                     : threadProc()                            : quality:  3
+17:11:55.078: (I) 24100:                     : threadProc()                            : frame size:  "1920x1080"
+17:11:55.078: (I) 24100:                     : threadProc()                            : document duration:  318230000
+17:11:55.078: (I) 24100:                     : threadProc()                            : clip count:  1
+17:11:55.078: (W) 24100:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:11:55.079: (I) 24100:                     : threadProc()                            : encoding starting - output  "C:\\Users\\kanha\\Desktop\\My project 5 2020-04-21_17-11-48.mp4"
+17:11:55.083: (I) 23216:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:11:55.093: (I) 24100:                     : threadProc()                            : --- encoding parameters ---
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : use MF encoder
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : width:  1920
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : height:  1080
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : fps:  30
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : use hw:  true
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : video bitrate:  17418240
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : sample rate:  48000
+17:11:55.093: (I) 24100:                     : mfencoder::dumpSettings()               : channels num:  2
+17:11:55.094: (I) 24100:                     : mfencoder::dumpSettings()               : channels mask:  3
+17:11:55.094: (I) 24100:                     : mfencoder::dumpSettings()               : audio format:  1
+17:11:55.094: (I) 24100:                     : mfencoder::dumpSettings()               : bits per sample:  16
+17:11:55.094: (I) 24100:                     : threadProc()                            : profile:  2
+17:11:55.117: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:11:55.134: (I) 19772:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 59 ms. Operation context: ENCODING. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:11:56.095: (I) 24100:                     : threadProc()                            : encoder opened
+17:12:19.037: (I) 24100:                     : threadProc()                            : encoder closed
+17:12:19.081: (I) 24100:                     : threadProc()                            : shutdown encoding mediaprocessor
+17:12:19.119: (I) 24100:                     : threadProc()                            : checking encoding result...
+17:12:19.120: (I)  9148: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+17:12:19.366: (W) 24100:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:12:19.367: (I) 24100:                     : threadProc()                            : encoding done
+17:12:24.011: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+17:12:33.606: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+17:12:33.608: (I) 19476: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+17:12:33.609: (I) 19476: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+17:12:33.609: (I) 19476: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 1
+17:12:33.650: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 44
+17:12:33.686: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 54 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:33.700: (I) 12112:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469353645 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:35.661: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:35.687: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 52 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:35.795: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 41 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:43.753: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:12:43.753: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:12:43.797: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 40 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:12:44.994: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:12:46.339: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:10.296, 102960000)slider: Time(00:10.296, 102960000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:12:48.687: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:15.678, 156780000)slider: Time(00:15.678, 156780000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:12:52.681: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:20.943, 209430000)slider: Time(00:20.943, 209430000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:12:54.177: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:23.867, 238670000)slider: Time(00:23.867, 238670000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:12:55.271: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:29.483, 294830000)slider: Time(00:29.483, 294830000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:14:04.894: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:45.161, 451610000)slider: Time(00:45.161, 451610000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:14:06.851: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:41.534, 415340000)slider: Time(00:41.534, 415340000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:14:10.810: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:38.609, 386090000)slider: Time(00:38.609, 386090000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:14:12.515: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:35.684, 356840000)slider: Time(00:35.684, 356840000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:15:58.294: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:29.951, 299510000)slider: Time(00:29.951, 299510000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:16:05.844: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:37.152, 371520000)slider: Time(00:37.121, 371210000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:16:09.954: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:38.375, 383750000)slider: Time(00:38.375, 383750000), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:16:12.940: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:38.375, 383750000)slider: Time(00:38.375, 383750000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:16:13.681: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:35.918, 359180000)slider: Time(00:35.918, 359180000), state: Player::State(Scrubbing), doc: Doc({ee680e47-9e)
+17:16:15.938: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:37.914, 379140000)slider: Time(00:37.897, 378970000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:16:21.272: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:38.492, 384920000)slider: Time(00:38.492, 384920000), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:16:58.193: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:15.293, 752930000)slider: Time(01:15.272, 752720000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:17:00.578: (W) 20424:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:10.978: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:13.104: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:13.123, 731230000)slider: Time(01:13.123, 731230000), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:17:16.282: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:16.182, 761820000)slider: Time(01:16.151, 761510000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:17:22.206: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:10.082, 700820000)slider: Time(01:10.082, 700820000), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:17:27.390: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:15.140, 751400000)slider: Time(01:15.109, 751090000), state: Player::State(Playing), doc: Doc({ee680e47-9e)
+17:17:30.130: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:15.151, 751510000)slider: Time(01:15.151, 751510000), state: Player::State(Paused), doc: Doc({ee680e47-9e)
+17:17:30.135: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:15.151, 751510000)slider: Time(01:15.151, 751510000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:17:30.300: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 66 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:30.349: (I) 24084:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469650300 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:33.775: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+17:17:33.778: (I) 17620: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+17:17:33.780: (I) 17620: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+17:17:33.780: (I) 17620: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 2
+17:17:33.822: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 47
+17:17:33.857: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 54 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:33.868: (I) 22836:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469653818 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:36.099: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:36.620, 366200000)slider: Time(00:36.620, 366200000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:17:36.099: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:36.620, 366200000)slider: Time(00:36.620, 366200000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:17:36.153: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 45 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:17:37.288: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:17:38.300: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:22.834, 828340000)slider: Time(01:22.834, 828340000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:17:38.425: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:23.302, 833020000)slider: Time(01:23.302, 833020000), state: Player::State(Scrubbing), doc: Doc({8a652c92-60)
+17:17:45.921: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:32.779, 927790000)slider: Time(01:32.779, 927790000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:17:52.688: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:44.947, 1049470000)slider: Time(01:44.947, 1049470000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:17:53.888: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:50.212, 1102120000)slider: Time(01:50.212, 1102120000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:17:56.137: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:54.775, 1147750000)slider: Time(01:54.775, 1147750000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:17:58.512: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:53.488, 1134880000)slider: Time(01:53.488, 1134880000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:18:50.772: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:45.347, 1653470000)slider: Time(02:45.325, 1653250000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:18:54.097: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:18:54.135: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 38
+17:18:58.857: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:53.020, 1130200000)slider: Time(01:53.020, 1130200000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:19:00.842: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:54.881, 1148810000)slider: Time(01:54.854, 1148540000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:19:06.579: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:54.190, 1141900000)slider: Time(01:54.190, 1141900000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:19:08.277: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:55.765, 1157650000)slider: Time(01:55.754, 1157540000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:19:08.931: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:55.779, 1157790000)slider: Time(01:55.779, 1157790000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:19:10.415: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:54.190, 1141900000)slider: Time(01:54.190, 1141900000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:19:54.310: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:37.757, 1577570000)slider: Time(02:37.728, 1577280000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:19:55.879: (W) 20424:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:19:57.172: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:19:57.407: (I)  9148: ui.player           : Player::onPlay()                        : Play from start: clk: Time(02:34.671, 1546710000)slider: Time(02:34.671, 1546710000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:19:58.311: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(02:31.980, 1519800000)slider: Time(02:31.980, 1519800000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:20:01.311: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:34.686, 1546860000)slider: Time(02:34.657, 1546570000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:20:04.612: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(02:34.203, 1542030000)slider: Time(02:34.203, 1542030000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:20:08.611: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:38.081, 1580810000)slider: Time(02:38.048, 1580480000), state: Player::State(Playing), doc: Doc({8a652c92-60)
+17:20:11.249: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:38.092, 1580920000)slider: Time(02:38.092, 1580920000), state: Player::State(Paused), doc: Doc({8a652c92-60)
+17:20:11.253: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(02:38.092, 1580920000)slider: Time(02:38.092, 1580920000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:20:11.323: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 59 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:20:11.435: (I) 11500:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587469811377 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:20:11.592: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 61 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:21:51.989: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:36.620, 366200000)slider: Time(00:36.620, 366200000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:21:53.319: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:21:53.403: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 82 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:21:53.872: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.120, 1200000)slider: Time(00:00.094, 940000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:21:54.498: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.130, 1300000)slider: Time(00:00.130, 1300000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:22:30.131: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 65 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:23:14.890: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:20.508, 805080000)slider: Time(01:20.477, 804770000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:23:17.328: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Begin export
+17:23:17.328: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:23:17.349: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 21
+17:23:40.159: (I)  9148: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+17:23:40.160: (I)  2144:                     : threadProc()                            : Encoder thread id:  2144
+17:23:40.160: (I)  2144:                     : threadProc()                            : --- start encoding thread ---
+17:23:40.182: (I)  2144:                     : threadProc()                            : --- encoder context ---
+17:23:40.182: (I)  2144:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+17:23:40.182: (I)  2144:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+17:23:40.182: (I)  2144:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+17:23:40.182: (I)  2144:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+17:23:40.182: (I)  2144:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+17:23:40.182: (W)  2144:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:23:40.183: (I)  2144:                     : threadProc()                            : encoding mediaprocessor init done
+17:23:40.183: (I)  2144:                     : threadProc()                            : output format:  mp4
+17:23:40.183: (I)  2144:                     : threadProc()                            : quality:  3
+17:23:40.183: (I)  8060:                     : mediaprocessor::runVideo()              : Mediaprocessor type:  "ENCODING" . Thread ID:  8060
+17:23:40.183: (I)  2144:                     : threadProc()                            : frame size:  "1920x1080"
+17:23:40.183: (I)  2144:                     : threadProc()                            : document duration:  804940000
+17:23:40.183: (I)  2144:                     : threadProc()                            : clip count:  2
+17:23:40.183: (W)  2144:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:23:40.183: (I)  2144:                     : threadProc()                            : encoding starting - output  "C:\\Users\\kanha\\Desktop\\dekhi bihar.mp4"
+17:23:40.196: (I)  2144:                     : threadProc()                            : --- encoding parameters ---
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : use MF encoder
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : width:  1920
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : height:  1080
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : fps:  30
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : use hw:  true
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : video bitrate:  17418240
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : sample rate:  48000
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : channels num:  2
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : channels mask:  3
+17:23:40.197: (I)  2144:                     : mfencoder::dumpSettings()               : audio format:  1
+17:23:40.198: (I)  2144:                     : mfencoder::dumpSettings()               : bits per sample:  16
+17:23:40.198: (I)  2144:                     : threadProc()                            : profile:  2
+17:23:40.198: (I) 24332:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:23:40.225: (I)  8060:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 42 ms. Operation context: ENCODING. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:23:40.239: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:20.519, 805190000)slider: Time(01:20.493, 804930000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:23:40.916: (I)  2144:                     : threadProc()                            : encoder opened
+17:24:08.668: (I)  8060:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 122 ms. Operation context: ENCODING. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:24:43.091: (I)  2144:                     : threadProc()                            : encoder closed
+17:24:43.135: (I)  2144:                     : threadProc()                            : shutdown encoding mediaprocessor
+17:24:43.161: (I)  2144:                     : threadProc()                            : checking encoding result...
+17:24:43.161: (I)  9148: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+17:24:43.276: (W)  2144:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:24:43.276: (I)  2144:                     : threadProc()                            : encoding done
+17:29:56.167: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+17:30:08.381: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:30:08.411: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 72 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:30:10.624: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:30:29.804: (I) 14468:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:29.989: (I)  1100:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587470429929 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:32.053: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:21.310, 213100000)slider: Time(00:21.290, 212900000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:30:32.886: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+17:30:32.886: (I) 14468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+17:30:32.889: (I) 14468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+17:30:32.889: (I) 14468: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 3
+17:30:32.924: (I)  9148:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 34 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:32.982: (I)  9148: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 96
+17:30:32.990: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 39 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:32.997: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:33.030: (I) 17944:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587470432974 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:30:34.541: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(01:20.494, 804940000)slider: Time(01:20.494, 804940000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:31:06.501: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(01:52.333, 1123330000)slider: Time(01:52.303, 1123030000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+17:31:07.327: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:31:07.393: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 85 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:31:07.569: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 29 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/20200421_170357.mp4"
+17:31:15.948: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 30 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:15.970: (I) 21108:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:20.250: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:31:20.250: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({a7877e8a-03)
+17:31:20.283: (I)  9148:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 33 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:20.424: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 162 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:29.995: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.534, 5340000)slider: Time(00:00.534, 5340000), state: Player::State(Paused), doc: Doc({a7877e8a-03)
+17:31:31.796: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:02.218, 22180000)slider: Time(00:02.188, 21880000), state: Player::State(Playing), doc: Doc({a7877e8a-03)
+17:31:36.316: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:01.523, 15230000)slider: Time(00:01.523, 15230000), state: Player::State(Paused), doc: Doc({a7877e8a-03)
+17:31:42.606: (I)  9148: ui.player           : Player::onPlay()                        : Play: clk: Time(00:07.676, 76760000)slider: Time(00:07.657, 76570000), state: Player::State(Playing), doc: Doc({a7877e8a-03)
+17:31:42.628: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:07.676, 76760000)slider: Time(00:07.676, 76760000), state: Player::State(Playing), doc: Doc({a7877e8a-03)
+17:31:42.631: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:07.676, 76760000)slider: Time(00:07.676, 76760000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:31:43.088: (I) 20424:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 50 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:43.479: (I)  6956:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1587470503194 ms. Operation context: THUMBNAIL. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:31:46.693: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Begin export
+17:31:46.694: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:31:46.723: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 29
+17:32:03.694: (I)  9148: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+17:32:03.695: (I) 15308:                     : threadProc()                            : Encoder thread id:  15308
+17:32:03.695: (I) 15308:                     : threadProc()                            : --- start encoding thread ---
+17:32:03.718: (I) 15308:                     : threadProc()                            : --- encoder context ---
+17:32:03.718: (I) 15308:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+17:32:03.718: (I) 15308:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+17:32:03.718: (I) 15308:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+17:32:03.718: (I) 15308:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+17:32:03.718: (I) 15308:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+17:32:03.718: (W) 15308:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:32:03.718: (I) 15308:                     : threadProc()                            : encoding mediaprocessor init done
+17:32:03.719: (I) 15308:                     : threadProc()                            : output format:  mp4
+17:32:03.719: (I) 15712:                     : mediaprocessor::runVideo()              : Mediaprocessor type:  "ENCODING" . Thread ID:  15712
+17:32:03.719: (I) 15308:                     : threadProc()                            : quality:  3
+17:32:03.719: (I) 15308:                     : threadProc()                            : frame size:  "1920x1080"
+17:32:03.719: (I) 15308:                     : threadProc()                            : document duration:  303100000
+17:32:03.719: (I) 15308:                     : threadProc()                            : clip count:  1
+17:32:03.719: (W) 15308:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:32:03.719: (I) 15308:                     : threadProc()                            : encoding starting - output  "C:\\Users\\kanha\\Desktop\\dekh lo!!!.mp4"
+17:32:03.725: (I) 13160:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:32:03.731: (I) 15308:                     : threadProc()                            : --- encoding parameters ---
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : use MF encoder
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : width:  1920
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : height:  1080
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : fps:  30
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : use hw:  true
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : video bitrate:  17418240
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : sample rate:  48000
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : channels num:  2
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : channels mask:  3
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : audio format:  1
+17:32:03.732: (I) 15308:                     : mfencoder::dumpSettings()               : bits per sample:  16
+17:32:03.732: (I) 15308:                     : threadProc()                            : profile:  2
+17:32:03.752: (I) 15712:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 32 ms. Operation context: ENCODING. File path: C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:32:03.759: (I)  9148: ui.player           : Player::onPause()                       : Pause: clk: Time(00:06.153, 61530000)slider: Time(00:06.153, 61530000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+17:32:04.429: (I) 15308:                     : threadProc()                            : encoder opened
+17:32:25.639: (W) 15712:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+17:32:25.683: (I) 15308:                     : threadProc()                            : encoder closed
+17:32:25.714: (I) 15308:                     : threadProc()                            : shutdown encoding mediaprocessor
+17:32:25.747: (I) 15308:                     : threadProc()                            : checking encoding result...
+17:32:25.748: (I)  9148: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+17:32:25.911: (W) 15308:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+17:32:25.911: (I) 15308:                     : threadProc()                            : encoding done
+17:32:44.934: (I)  9148: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+17:51:55.510: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:51:55.551: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 41
+17:52:57.848: (I)  9148: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+17:52:57.848: (I)  9148: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+17:52:57.861: (I)  9148: ui.player           : Player::~Player                         : Entering 'Delete player'
+17:52:57.932: (I)  9148: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 71
+17:52:57.989: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+17:52:57.995: (I)  9148: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 6
+17:52:57.995: (I)  9148:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+17:53:00.341: (I)  9148:                     : MetricSender::waitForSendAllImpl()      : Metrics was sent in 2346 msec
+17:53:00.629: (I)  9148:                     : Application::~Application()             : App finished normally
+17:53:00.636: (I)  9148: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

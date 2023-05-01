@@ -1,0 +1,288 @@
+
+
+------------------------------------------------------------
+Application started
+19:45:38.062: (I)  5628: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+19:45:38.062: (I)  5628: ice.systeminfo      : Kernel version: "10.0.18362"
+19:45:38.062: (I)  5628: ice.systeminfo      : CPU architecture: "x86_64"
+19:45:38.062: (I)  5628: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+19:45:38.062: (I)  5628: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+19:45:38.062: (I)  5628: ice.systeminfo      : BuildVersion: "1.5.3"
+19:45:38.063: (I)  5628: ice.systeminfo      : DisplayVersion: "1.53"
+19:45:38.063: (I)  5628: ice.systeminfo      : PID: 6564
+19:45:38.063: (I)  5628: ice.systeminfo      : Main thread id: 5628
+19:45:38.063: (I)  5628: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+19:45:38.063: (I)  5628: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+19:45:38.063: (I)  5628: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+19:45:38.063: (I)  5628: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+19:45:38.063: (I)  5628: ice.systeminfo      : Screen 0: primary, scale: 85%, pixelRatio: 1, logDpi: 120, phyDpi: 141.951, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1030}
+19:45:38.063: (I)  5628: ice.systeminfo      : 
+19:45:38.067: (I)  5628: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_IN"
+19:45:38.069: (I)  5628: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+19:45:38.069: (I)  5628: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+19:45:38.069: (I)  5628: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+19:45:38.636: (I)  5628: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+19:45:38.982: (I)  5628: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 346 msec
+19:45:38.982: (I)  5628: app.app             : Application::init                       : Entering 'Init app'
+19:45:39.011: (I)  5628: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+19:45:39.019: (I)  5628: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+19:45:39.019: (I)  5628: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+19:45:39.019: (I)  5628: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+19:45:39.023: (I)  5628: ui.player           : Player::Player                          :     Entering 'Create player'
+19:45:39.075: (I)  5628:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) UHD Graphics 630"
+19:45:39.075: (I)  5628:                     : Player::Player()                        :       --- preview context ---
+19:45:39.075: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+19:45:39.075: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+19:45:39.075: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+19:45:39.075: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+19:45:39.075: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+19:45:39.407: (I)  5628:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+19:45:39.421: (I)  5628:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) UHD Graphics 630"
+19:45:39.421: (I)  5628:                     : Player::Player()                        :       --- mediaprocessor context ---
+19:45:39.421: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+19:45:39.421: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+19:45:39.421: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+19:45:39.421: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+19:45:39.421: (I)  5628:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+19:45:39.468: (W) 27040:                     :       QObject::connect: Cannot queue arguments of type 'DeviceInitState'
+(Make sure 'DeviceInitState' is registered using qRegisterMetaType().)
+19:45:39.476: (I)  5628: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 453
+19:45:39.678: (I)  5628: ice.windowgeometry  : IceWindow::readState()                  :     Restore saved geometry: QRect(460,165 1021x700)
+19:45:39.679: (I)  5628: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 660
+19:45:39.714: (I)  5628: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 732
+19:45:39.714: (I)  5628: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+19:45:39.714: (I)  5628: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+19:45:39.714: (I)  5628: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents"
+19:45:39.721: (I)  5628: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+19:45:39.725: (I)  1424: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+19:45:39.742: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        :       Send analitics failed: "Host data.icecreamapps.com not found"
+19:45:40.206: (I)  5628: ice.splash          : IceSplash::Private::onMinDurationReached:       Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+19:45:40.206: (I)  5628: ice.splash          : IceSplash::Private::onMinDurationReached:       Main window already exists. Finish splash using MainWindow(0x24a85656320, name="MainWindow")
+19:45:40.360: (I)  5628: app.app             : Application::setCurrentDocument::lambda(:       Show progress for setCurrentDocument(). Reason: showByTimeout
+19:45:41.415: (I)  1424: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 1690
+19:45:41.415: (I)  5628: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+19:45:41.415: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+19:45:41.415: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+19:45:41.416: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+19:45:41.416: (I)  5628: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Stopped), doc: Doc(My project 5, {eecf353b-42...)
+19:45:41.416: (I) 28536:                     : mediaprocessor::runVideo()              :       Mediaprocessor type:  "PLAY" . Thread ID:  28536
+19:45:41.424: (W)  5628:                     : scrubbingservice::getReader()           :       MF video reader open FAILED! Thread Id:  5628
+19:45:41.424: (W)  5628:                     : scrubbingservice::getReader()           :       Context: scrubbing
+19:45:41.424: (W)  5628:                     : scrubbingservice::getReader()           :       Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+19:45:41.435: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+19:45:41.436: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+19:45:41.436: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+19:45:41.437: (W)  5628:                     : scrubbingservice::getReader()           :       MF video reader open FAILED! Thread Id:  5628
+19:45:41.437: (W)  5628:                     : scrubbingservice::getReader()           :       Context: scrubbing
+19:45:41.437: (W)  5628:                     : scrubbingservice::getReader()           :       Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+19:45:41.446: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 30
+19:45:41.446: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+19:45:41.447: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 2
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+19:45:41.448: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+19:45:41.448: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+19:45:41.448: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+19:45:41.448: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+19:45:41.448: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+19:45:41.449: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+19:45:41.450: (I)  5628: ui.thumbcache       : Ui::thumbCache()                        :     Simple cache limit: 10240 Mb
+19:45:41.450: (I)  5628: ui.thumbcache       : Ui::thumbCache()                        :     Source cache limit: 102400 Mb
+19:45:41.450: (I)  5628: ui.thumbcache       : Ui::thumbCache()                        :     Scaled cache limit: 51200 Mb
+19:45:41.451: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_133429.jpg"
+19:45:41.456: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_134738.jpg"
+19:45:41.458: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140329.jpg"
+19:45:41.459: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140332.jpg"
+19:45:41.460: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140356.jpg"
+19:45:41.461: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140358.jpg"
+19:45:41.461: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140401.jpg"
+19:45:41.462: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140403.jpg"
+19:45:41.462: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140501.jpg"
+19:45:41.463: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140502.jpg"
+19:45:41.464: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_155451.jpg"
+19:45:41.464: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073455.jpg"
+19:45:41.465: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073502.jpg"
+19:45:41.465: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073508.jpg"
+19:45:41.466: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0005.jpg"
+19:45:41.481: (W)  5628: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma:     File path not exists "C:/Users/kanha/Desktop/My project 5 2020-04-21_17-11-48.mp4"
+19:45:41.493: (I)  5628: app.app             : Application::setCurrentDocument()       :     Progress visibility time: QTime("19:45:40.380") Finish progress after 0
+19:45:41.495: (I)  5628: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 1774
+19:45:41.496: (I)  5628: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 1782
+19:45:43.634: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:45:44.700: (I)  5628: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=1.53&pid=9&mh=e91e9cfe6bdd799ad8a936be50847486&h=1a69927ccd36ded4ff915388bb990bff"
+19:45:44.702: (W)  5628: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Update checker reply error: "Host updates.icecreamapps.com not found"
+19:45:48.625: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:45:49.602: (I)  5628: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:45:52.939: (I)  5628: ui.player           : Player::onPause()                       : Pause: clk: Time(00:01.962, 19620000)slider: Time(00:01.962, 19620000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:45:53.627: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:45:55.122: (I)  5628: app.export          : Ui::exportCurrentDocument()             : Begin export
+19:45:55.122: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:45:55.127: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 5
+19:45:58.629: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:03.627: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:08.626: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:13.629: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:18.623: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:23.625: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:28.633: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:31.102: (I)  5628: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+19:46:33.623: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:38.630: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:43.624: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:48.625: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:49.357: (W)  5628:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  5628
+19:46:49.357: (W)  5628:                     : scrubbingservice::getReader()           : Context: scrubbing
+19:46:49.357: (W)  5628:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+19:46:53.624: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:46:58.623: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:03.624: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:08.239: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument        : Entering 'Remove doc {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:47:08.240: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument()      :   Last doc removed, create new one
+19:47:08.245: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          :   Entering 'Save document {a956603b-4d67-4259-a58c-5da1ea472160}'
+19:47:08.249: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          :   Leaving 'Save document {a956603b-4d67-4259-a58c-5da1ea472160}'. Elapsed time: 4
+19:47:08.250: (I)  5628: app.documentsstorage: DocumentsStorage::createDocument()      :   New doc created: "{a956603b-4d67-4259-a58c-5da1ea472160}"
+19:47:08.250: (I)  5628: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+19:47:08.250: (I) 22812: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+19:47:08.251: (I) 22812: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 1
+19:47:08.269: (I)  5628: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+19:47:08.269: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+19:47:08.269: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+19:47:08.270: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+19:47:08.270: (I)  5628: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 6, {a956603b-4d...)
+19:47:08.281: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+19:47:08.281: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+19:47:08.281: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 20
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 0
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+19:47:08.290: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+19:47:08.290: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+19:47:08.290: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+19:47:08.290: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 0
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+19:47:08.290: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+19:47:08.291: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+19:47:08.291: (I)  5628: app.app             : Application::setCurrentDocument()       :     Unload previous document
+19:47:08.291: (I) 22812: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Unoad prev doc fufure'
+19:47:08.291: (I) 22812: app.documentsstorage: DocumentsStorage::saveDocument          :       Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:47:08.313: (I) 22812: app.documentsstorage: DocumentsStorage::saveDocument          :       Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 22
+19:47:08.317: (I) 22812: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Unoad prev doc fufure'. Elapsed time: 26
+19:47:08.323: (I)  5628: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 73
+19:47:08.323: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument()      :   Remove folder: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents/{eecf353b-4263-4ff1-b8f7-09db0230e366}"
+19:47:08.351: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument        : Leaving 'Remove doc {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 112
+19:47:08.628: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:13.629: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:18.628: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:23.625: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:28.633: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:33.630: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:38.623: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:41.624: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument        : Entering 'Remove doc {a956603b-4d67-4259-a58c-5da1ea472160}'
+19:47:41.624: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument()      :   Last doc removed, create new one
+19:47:41.626: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          :   Entering 'Save document {0568f124-08d0-48ab-958f-9b247a759678}'
+19:47:41.627: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          :   Leaving 'Save document {0568f124-08d0-48ab-958f-9b247a759678}'. Elapsed time: 1
+19:47:41.627: (I)  5628: app.documentsstorage: DocumentsStorage::createDocument()      :   New doc created: "{0568f124-08d0-48ab-958f-9b247a759678}"
+19:47:41.627: (I)  5628: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+19:47:41.628: (I) 14812: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+19:47:41.628: (I) 14812: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 0
+19:47:41.643: (I)  5628: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 0
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+19:47:41.644: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+19:47:41.644: (I)  5628: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 7, {0568f124-08...)
+19:47:41.656: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+19:47:41.656: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+19:47:41.656: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 20
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 0
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+19:47:41.664: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+19:47:41.664: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+19:47:41.664: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+19:47:41.664: (I)  5628: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 0
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 0
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+19:47:41.664: (I)  5628: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+19:47:41.665: (I)  5628: app.app             : Application::setCurrentDocument()       :     Unload previous document
+19:47:41.665: (I) 14812: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Unoad prev doc fufure'
+19:47:41.665: (I) 14812: app.documentsstorage: DocumentsStorage::saveDocument          :       Entering 'Save document {a956603b-4d67-4259-a58c-5da1ea472160}'
+19:47:41.665: (I) 14812: app.documentsstorage: DocumentsStorage::saveDocument          :       Leaving 'Save document {a956603b-4d67-4259-a58c-5da1ea472160}'. Elapsed time: 0
+19:47:41.665: (I) 14812: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Unoad prev doc fufure'. Elapsed time: 0
+19:47:41.682: (I)  5628: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 55
+19:47:41.683: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument()      :   Remove folder: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents/{a956603b-4d67-4259-a58c-5da1ea472160}"
+19:47:41.684: (I)  5628: app.documentsstorage: DocumentsStorage::removeDocument        : Leaving 'Remove doc {a956603b-4d67-4259-a58c-5da1ea472160}'. Elapsed time: 60
+19:47:43.625: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:44.776: (I)  5628: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+19:47:44.776: (I)  5628: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+19:47:44.780: (I)  5628: ui.player           : Player::~Player                         : Entering 'Delete player'
+19:47:44.790: (I)  5628: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 10
+19:47:44.810: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {0568f124-08d0-48ab-958f-9b247a759678}'
+19:47:44.810: (I)  5628: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {0568f124-08d0-48ab-958f-9b247a759678}'. Elapsed time: 0
+19:47:44.810: (I)  5628:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+19:47:48.693: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:53.689: (W)  5628: metrics.sender      : MetricSender::sendNext::lambda()        : Send analitics failed: "Host data.icecreamapps.com not found"
+19:47:54.853: (I)  5628:                     : MetricSender::waitForSendAllImpl()      : Wait send metrics timeout reached. Unprocessed itemds: 1
+19:47:55.054: (I)  5628:                     : Application::~Application()             : App finished normally
+19:47:55.054: (I)  5628: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

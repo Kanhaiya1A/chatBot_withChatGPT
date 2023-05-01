@@ -1,0 +1,642 @@
+
+
+------------------------------------------------------------
+Application started
+19:20:50.962: (I) 15188: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+19:20:50.962: (I) 15188: ice.systeminfo      : Kernel version: "10.0.18362"
+19:20:50.962: (I) 15188: ice.systeminfo      : CPU architecture: "x86_64"
+19:20:50.962: (I) 15188: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+19:20:50.962: (I) 15188: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+19:20:50.962: (I) 15188: ice.systeminfo      : BuildVersion: "1.5.3"
+19:20:50.969: (I) 15188: ice.systeminfo      : DisplayVersion: "1.53"
+19:20:50.969: (I) 15188: ice.systeminfo      : PID: 1464
+19:20:50.969: (I) 15188: ice.systeminfo      : Main thread id: 15188
+19:20:50.969: (I) 15188: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+19:20:50.969: (I) 15188: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+19:20:50.969: (I) 15188: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+19:20:50.969: (I) 15188: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+19:20:50.969: (I) 15188: ice.systeminfo      : Screen 0: primary, scale: 85%, pixelRatio: 1, logDpi: 120, phyDpi: 141.951, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1030}
+19:20:50.969: (I) 15188: ice.systeminfo      : 
+19:20:50.970: (I) 15188: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_IN"
+19:20:50.971: (I) 15188: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+19:20:50.972: (I) 15188: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+19:20:50.972: (I) 15188: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+19:20:52.114: (I) 15188: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+19:20:52.583: (I) 15188: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 469 msec
+19:20:52.583: (I) 15188: app.app             : Application::init                       : Entering 'Init app'
+19:20:52.616: (I) 15188: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+19:20:52.628: (I) 15188: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+19:20:52.628: (I) 15188: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+19:20:52.629: (I) 15188: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+19:20:52.636: (I) 15188: ui.player           : Player::Player                          :     Entering 'Create player'
+19:20:52.674: (I) 15188:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) UHD Graphics 630"
+19:20:52.674: (I) 15188:                     : Player::Player()                        :       --- preview context ---
+19:20:52.674: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+19:20:52.674: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+19:20:52.674: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+19:20:52.674: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+19:20:52.674: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+19:20:53.665: (I) 15188:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+19:20:53.689: (I) 15188:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) UHD Graphics 630"
+19:20:53.689: (I) 15188:                     : Player::Player()                        :       --- mediaprocessor context ---
+19:20:53.689: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+19:20:53.689: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+19:20:53.689: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+19:20:53.689: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+19:20:53.689: (I) 15188:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+19:20:53.708: (I) 15188: ice.splash          : IceSplash::Private::onMinDurationReached:       Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+19:20:53.708: (I) 15188: ice.splash          : IceSplash::Private::onMinDurationReached:       Main window still not exists, connect to iceUi->mainWindowCreated()
+19:20:53.748: (W) 13068:                     :       QObject::connect: Cannot queue arguments of type 'DeviceInitState'
+(Make sure 'DeviceInitState' is registered using qRegisterMetaType().)
+19:20:53.760: (I) 15188: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1124
+19:20:54.079: (I) 15188: ice.windowgeometry  : IceWindow::readState()                  :     Restore saved geometry: QRect(460,165 1021x700)
+19:20:54.080: (I) 15188: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1451
+19:20:54.159: (I) 15188: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1576
+19:20:54.159: (I) 15188: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+19:20:54.159: (I) 15188: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+19:20:54.159: (I) 15188: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents"
+19:20:54.177: (I) 15188: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+19:20:54.183: (I) 15188: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x21183b1d080, name="MainWindow")
+19:20:54.183: (I)  7112: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+19:20:54.295: (I)  7112: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 112
+19:20:54.339: (I) 15188: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+19:20:54.339: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+19:20:54.339: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+19:20:54.342: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+19:20:54.342: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+19:20:54.343: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+19:20:54.343: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 4
+19:20:54.343: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+19:20:54.343: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+19:20:54.343: (I) 15188: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Stopped), doc: Doc(My project 5, {eecf353b-42...)
+19:20:54.344: (I)  1792:                     : mediaprocessor::runVideo()              :       Mediaprocessor type:  "PLAY" . Thread ID:  1792
+19:20:54.387: (I)  7960:                     : mfreaderaudio::open()                   :       open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+19:20:54.390: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+19:20:54.391: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+19:20:54.391: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+19:20:54.410: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 67
+19:20:54.411: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+19:20:54.411: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 24
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+19:20:54.435: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+19:20:54.436: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+19:20:54.436: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+19:20:54.507: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+19:20:54.507: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 71
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 72
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+19:20:54.507: (I) 15188: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+19:20:54.508: (I) 15188: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 331
+19:20:54.508: (I) 15188: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 349
+19:20:54.732: (I) 15188: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+19:20:54.732: (I) 15188: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+19:20:54.732: (I) 15188: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+19:20:57.378: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:20:59.156: (I) 15188: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=1.53&pid=9&mh=e91e9cfe6bdd799ad8a936be50847486&h=1a69927ccd36ded4ff915388bb990bff"
+19:21:04.154: (W) 15188: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Update checker reply error: "Operation canceled"
+19:21:12.337: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:14.841, 148410000)slider: Time(00:14.813, 148130000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:21:19.079: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:14.859, 148590000)slider: Time(00:14.859, 148590000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:21:20.310: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:16.077, 160770000)slider: Time(00:16.063, 160630000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:21:39.943: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 58 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:21:39.968: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 25 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:21:40.006: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+19:21:40.013: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 26 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:21:40.023: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:21:40.032: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:21:40.038: (W)  1792:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+19:21:40.078: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 22 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:21:40.214: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:21:40.273: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:21:40.301: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 25 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:21:41.048: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:16.430, 6164300000)slider: Time(10:16.430, 6164300000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:21:45.386: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:20.646, 6206460000)slider: Time(10:20.616, 6206160000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:21:57.719: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:20.659, 6206590000)slider: Time(10:20.659, 6206590000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:22:03.017: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:25.835, 6258350000)slider: Time(10:25.818, 6258180000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:22:03.605: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:25.848, 6258480000)slider: Time(10:25.848, 6258480000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:22:11.501: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:33.732, 6337320000)slider: Time(10:33.712, 6337120000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:22:19.602: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:33.747, 6337470000)slider: Time(10:33.747, 6337470000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:22:33.076: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:25.875, 258750000)slider: Time(10:47.053, 6470530000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:22:33.139: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:22:35.190: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:27.391, 273910000)slider: Time(00:27.374, 273740000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:22:39.724: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:25.875, 258750000)slider: Time(00:25.875, 258750000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:22:40.703: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:26.737, 267370000)slider: Time(00:26.721, 267210000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:22:43.657: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {b0d93cc4-6c2e-4ddf-ab16-7e44eb9351d1} )
+19:22:43.670: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_General, docClip {b0d93cc4-6c2e-4ddf-ab16-7e44eb9351d1}
+19:22:56.805: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {b0d93cc4-6c2e-4ddf-ab16-7e44eb9351d1} )
+19:22:58.695: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:26.754, 267540000)slider: Time(00:26.754, 267540000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:01.519: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:29.460, 294600000)slider: Time(00:29.439, 294390000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:23:03.937: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {4d75cf50-e987-4200-87a3-8abd47411069} )
+19:23:03.949: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {4d75cf50-e987-4200-87a3-8abd47411069}
+19:23:10.132: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {4d75cf50-e987-4200-87a3-8abd47411069} )
+19:23:10.894: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:29.473, 294730000)slider: Time(00:29.473, 294730000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:14.872: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:33.328, 333280000)slider: Time(00:33.311, 333110000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:23:17.314: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5cabde4e-156a-46ca-873d-4ae4a37fe41c} )
+19:23:17.325: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {5cabde4e-156a-46ca-873d-4ae4a37fe41c}
+19:23:22.810: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5cabde4e-156a-46ca-873d-4ae4a37fe41c} )
+19:23:23.682: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:33.342, 333420000)slider: Time(00:33.342, 333420000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:26.155: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:35.692, 356920000)slider: Time(00:35.677, 356770000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:23:28.761: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5b151c17-665e-44f8-aec3-321c07d5ba5f} )
+19:23:28.774: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {5b151c17-665e-44f8-aec3-321c07d5ba5f}
+19:23:33.429: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5b151c17-665e-44f8-aec3-321c07d5ba5f} )
+19:23:34.688: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:35.711, 357110000)slider: Time(00:35.711, 357110000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:36.670: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:37.569, 375690000)slider: Time(00:37.553, 375530000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:23:39.006: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5b16920d-4232-4fed-baf5-de34b2e829a3} )
+19:23:39.018: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {5b16920d-4232-4fed-baf5-de34b2e829a3}
+19:23:43.165: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5b16920d-4232-4fed-baf5-de34b2e829a3} )
+19:23:44.030: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:37.580, 375800000)slider: Time(00:37.580, 375800000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:47.149: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:40.579, 405790000)slider: Time(00:40.553, 405530000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:23:49.742: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {44e96875-8c4e-4d45-8109-ede3b5cfb10c} )
+19:23:49.755: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {44e96875-8c4e-4d45-8109-ede3b5cfb10c}
+19:23:53.938: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {44e96875-8c4e-4d45-8109-ede3b5cfb10c} )
+19:23:54.757: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:40.589, 405890000)slider: Time(00:40.589, 405890000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:23:58.776: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:44.481, 444810000)slider: Time(00:44.451, 444510000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:24:01.461: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {53db69f3-6745-400a-82b3-9488e4dd77ec} )
+19:24:01.473: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {53db69f3-6745-400a-82b3-9488e4dd77ec}
+19:24:10.578: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {53db69f3-6745-400a-82b3-9488e4dd77ec} )
+19:24:11.177: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:44.498, 444980000)slider: Time(00:44.498, 444980000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:24:15.311: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:48.513, 485130000)slider: Time(00:48.498, 484980000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:24:18.230: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {80153347-71e6-4678-9f46-1b1e6e254056} )
+19:24:18.241: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {80153347-71e6-4678-9f46-1b1e6e254056}
+19:24:26.238: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {80153347-71e6-4678-9f46-1b1e6e254056} )
+19:24:27.264: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:48.527, 485270000)slider: Time(00:48.527, 485270000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:24:28.714: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:24:31.811: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:52.952, 529520000)slider: Time(00:52.936, 529360000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:24:34.359: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {237b4ecb-22ba-4fd4-9a56-9ebfdc1b1a65} )
+19:24:34.370: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {237b4ecb-22ba-4fd4-9a56-9ebfdc1b1a65}
+19:24:38.698: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {237b4ecb-22ba-4fd4-9a56-9ebfdc1b1a65} )
+19:24:39.659: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:52.966, 529660000)slider: Time(00:52.966, 529660000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:24:45.000: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:58.187, 581870000)slider: Time(00:58.154, 581540000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:24:47.805: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {be01386e-1dd4-4906-8ef9-51c06e23f7a3} )
+19:24:47.816: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {be01386e-1dd4-4906-8ef9-51c06e23f7a3}
+19:24:52.958: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {be01386e-1dd4-4906-8ef9-51c06e23f7a3} )
+19:24:53.852: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:58.205, 582050000)slider: Time(00:58.205, 582050000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:24:59.046: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:03.278, 632780000)slider: Time(01:03.260, 632600000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:25:01.593: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {59146c89-4c01-4ef8-ae8e-5a878f09da18} )
+19:25:01.604: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {59146c89-4c01-4ef8-ae8e-5a878f09da18}
+19:25:05.770: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {59146c89-4c01-4ef8-ae8e-5a878f09da18} )
+19:25:06.407: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:03.294, 632940000)slider: Time(01:03.294, 632940000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:25:11.640: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:08.410, 684100000)slider: Time(01:08.393, 683930000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:25:14.467: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {19087480-3c9d-4487-abfb-8227709fefb0} )
+19:25:14.478: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {19087480-3c9d-4487-abfb-8227709fefb0}
+19:25:22.807: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {19087480-3c9d-4487-abfb-8227709fefb0} )
+19:25:30.324: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:25:30.349: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:25:36.356: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:52.000, 520000000)slider: Time(00:52.000, 520000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:25:48.999: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:04.522, 645220000)slider: Time(01:04.506, 645060000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:25:51.410: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {a992823b-69ca-4602-9f2a-3bc298a48796} )
+19:25:51.420: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {a992823b-69ca-4602-9f2a-3bc298a48796}
+19:25:54.502: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:25:54.599: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 97
+19:25:56.582: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {a992823b-69ca-4602-9f2a-3bc298a48796} )
+19:25:57.715: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:04.539, 645390000)slider: Time(01:04.539, 645390000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:26:01.989: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:08.689, 686890000)slider: Time(01:08.668, 686680000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:26:04.456: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {eed1dd76-b962-4712-9815-c332a0facdb1} )
+19:26:04.468: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {eed1dd76-b962-4712-9815-c332a0facdb1}
+19:26:13.080: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {eed1dd76-b962-4712-9815-c332a0facdb1} )
+19:26:14.730: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:08.698, 686980000)slider: Time(01:08.698, 686980000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:26:18.509: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:26:19.872: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:13.804, 738040000)slider: Time(01:13.789, 737890000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:26:22.879: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {bc0ac256-2f44-4a89-bab0-f5e5c1b24cad} )
+19:26:22.892: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {bc0ac256-2f44-4a89-bab0-f5e5c1b24cad}
+19:26:27.204: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {bc0ac256-2f44-4a89-bab0-f5e5c1b24cad} )
+19:26:28.124: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:13.817, 738170000)slider: Time(01:13.817, 738170000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:26:30.477: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+19:26:37.902: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:23.479, 834790000)slider: Time(01:23.449, 834490000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:26:46.668: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:26:46.787: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5b16920d-4232-4fed-baf5-de34b2e829a3} )
+19:26:46.811: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Crop, docClip {5b16920d-4232-4fed-baf5-de34b2e829a3}
+19:26:50.501: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5b16920d-4232-4fed-baf5-de34b2e829a3} )
+19:27:05.227: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+19:27:05.673: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:27:27.475: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:27:55.574: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:27:59.402: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:53.606, 536060000)slider: Time(00:53.592, 535920000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:28:00.231: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:53.619, 536190000)slider: Time(00:53.619, 536190000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:28:10.810: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:04.186, 641860000)slider: Time(01:04.170, 641700000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:28:14.752: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:28:15.598: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:44.000, 440000000)slider: Time(00:44.000, 440000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:28:21.642: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:28:40.451: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:08.732, 687320000)slider: Time(01:08.716, 687160000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:28:48.177: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(00:54.000, 540000000)slider: Time(00:54.000, 540000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:29:06.749: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:29:10.375: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+19:29:13.191: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:18.893, 788930000)slider: Time(01:18.871, 788710000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:29:19.326: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:29:33.692: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:07.750, 677500000)slider: Time(01:07.750, 677500000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:29:38.421: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:29:42.156: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+19:29:48.453: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:22.385, 823850000)slider: Time(01:22.369, 823690000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:29:51.205: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+19:29:57.567: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:07.750, 677500000)slider: Time(01:07.750, 677500000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:30:02.300: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+19:30:06.076: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+19:30:22.922: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:32.988, 929880000)slider: Time(01:32.973, 929730000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:30:25.905: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {6228b722-4257-4b9e-b715-8ff511997ab1} )
+19:30:25.916: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_General, docClip {6228b722-4257-4b9e-b715-8ff511997ab1}
+19:30:54.596: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:30:54.682: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 86
+19:31:02.033: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {6228b722-4257-4b9e-b715-8ff511997ab1} )
+19:31:03.113: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:32.999, 929990000)slider: Time(01:32.999, 929990000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:31:04.787: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:34.643, 946430000)slider: Time(01:34.621, 946210000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:31:07.379: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {5542e3a4-cbc2-44d8-870f-3303264e3ec1} )
+19:31:07.390: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {5542e3a4-cbc2-44d8-870f-3303264e3ec1}
+19:31:14.291: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {5542e3a4-cbc2-44d8-870f-3303264e3ec1} )
+19:31:15.064: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:34.658, 946580000)slider: Time(01:34.658, 946580000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:31:17.059: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:36.529, 965290000)slider: Time(01:36.502, 965020000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:31:19.501: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {bedf6df1-0b83-416b-a1d0-8a3ad76cbad2} )
+19:31:19.512: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {bedf6df1-0b83-416b-a1d0-8a3ad76cbad2}
+19:31:25.209: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {bedf6df1-0b83-416b-a1d0-8a3ad76cbad2} )
+19:31:25.890: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:36.547, 965470000)slider: Time(01:36.547, 965470000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:31:28.475: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:39.006, 990060000)slider: Time(01:38.982, 989820000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:31:31.316: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {09139d22-dcfc-4fb5-a89b-a6b497c67f59} )
+19:31:31.379: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {09139d22-dcfc-4fb5-a89b-a6b497c67f59}
+19:31:48.532: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {09139d22-dcfc-4fb5-a89b-a6b497c67f59} )
+19:31:51.482: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {09139d22-dcfc-4fb5-a89b-a6b497c67f59} )
+19:31:51.496: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {09139d22-dcfc-4fb5-a89b-a6b497c67f59}
+19:32:32.964: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {09139d22-dcfc-4fb5-a89b-a6b497c67f59} )
+19:32:35.834: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:35.750, 957500000)slider: Time(01:35.750, 957500000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:32:39.278: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:39.144, 991440000)slider: Time(01:39.129, 991290000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:32:40.480: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:39.159, 991590000)slider: Time(01:39.159, 991590000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:32:42.820: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:41.488, 1014880000)slider: Time(01:41.413, 1014130000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:32:44.468: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:37.750, 977500000)slider: Time(01:37.750, 977500000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:32:48.326: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:37.750, 977500000)slider: Time(01:41.440, 1014400000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:32:49.436: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:38.618, 986180000)slider: Time(01:38.603, 986030000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:33:18.062: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 30'
+19:33:18.063: (I)  6344: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+19:33:18.082: (I)  6344: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+19:33:18.082: (I)  6344: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 19
+19:33:18.143: (I) 15188: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 30'. Elapsed time: 81
+19:33:30.675: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:35.750, 957500000)slider: Time(01:35.750, 957500000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:33:40.583: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:41.166: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 45 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:42.167: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 50 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:45.126: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:45.750, 1057500000)slider: Time(01:50.027, 1100270000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:33:45.261: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:45.931: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(01:46.321, 1063210000)slider: Time(01:46.293, 1062930000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:33:46.010: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:49.067: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {1397697f-cbca-4b84-b7cc-a2051135338b} )
+19:33:49.078: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {1397697f-cbca-4b84-b7cc-a2051135338b}
+19:33:50.676: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.705: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.736: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.771: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.802: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.834: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.868: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.899: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.927: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.955: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:50.986: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.015: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.056: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.087: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.117: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.804: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.860: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.918: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:51.986: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:52.017: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:52.992: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:53.163: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:53.210: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:53.897: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:53.950: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:54.894: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:54.950: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:55.001: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:55.037: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:55.067: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:55.934: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:56.038: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:56.148: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:56.262: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:33:59.898: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {1397697f-cbca-4b84-b7cc-a2051135338b} )
+19:34:00.578: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(01:46.339, 1063390000)slider: Time(01:46.339, 1063390000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:34:24.362: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 53 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:34:24.391: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 29 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:34:24.408: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(02:37.746, 1577460000)slider: Time(02:09.932, 1299320000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:24.418: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:34:24.432: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 19 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:34:24.612: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 38 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+19:34:27.192: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 50 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+19:34:27.207: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(03:48.898, 2288980000)slider: Time(02:40.081, 1600810000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:27.225: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+19:34:27.225: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+19:34:31.318: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 57 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:34:31.337: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:02.066, 2420660000)slider: Time(03:52.690, 2326900000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:31.357: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:34:31.397: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:34:31.477: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+19:34:31.511: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+19:34:31.530: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:34:34.895: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 54 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:34.914: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:10.455, 2504550000)slider: Time(04:05.210, 2452100000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:34.935: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:34.963: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:35.160: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 27 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:38.723: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 53 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+19:34:38.739: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:20.793, 2607930000)slider: Time(04:13.798, 2537980000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:38.758: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 15 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+19:34:38.792: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+19:34:38.928: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:38.950: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:38.970: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 15 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+19:34:43.366: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 54 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:43.386: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:35.153, 2751530000)slider: Time(04:24.948, 2649480000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:43.407: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:43.408: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:43.574: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+19:34:43.610: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 30 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:46.395: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 39 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:34:46.413: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:45.491, 2854910000)slider: Time(04:37.733, 2777330000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:46.430: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 15 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:34:46.468: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:34:46.574: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:46.598: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+19:34:46.618: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:34:47.519: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(04:46.229, 2862290000)slider: Time(04:46.207, 2862070000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:34:50.704: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {6f63657e-70cf-4f1c-b344-a089680f7826} )
+19:34:50.718: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {6f63657e-70cf-4f1c-b344-a089680f7826}
+19:34:50.785: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 32 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:35:29.688: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {6f63657e-70cf-4f1c-b344-a089680f7826} )
+19:35:30.645: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(04:47.241, 2872410000)slider: Time(04:47.241, 2872410000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:36:01.588: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Selfie_(Full_Video)__Gurshabad__Harish_Verma__Simi_Chahal__Jatinder_Shah(256kbps).mp3"
+19:36:07.859: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:36:07.907: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.34.08.mp4"
+19:36:41.332: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(05:52.692, 3526920000)slider: Time(05:57.783, 3577830000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:36:42.838: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(05:53.986, 3539860000)slider: Time(05:53.974, 3539740000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:36:46.710: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {e8e311c8-c0d0-4b9f-bf15-aaa5e01ded6a} )
+19:36:46.717: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {e8e311c8-c0d0-4b9f-bf15-aaa5e01ded6a}
+19:36:52.057: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {e8e311c8-c0d0-4b9f-bf15-aaa5e01ded6a} )
+19:36:52.615: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(05:54.001, 3540010000)slider: Time(05:54.001, 3540010000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:36:59.589: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(06:00.858, 3608580000)slider: Time(06:00.846, 3608460000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:37:01.922: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {a92873f6-de13-409b-bf97-5ea3818f6021} )
+19:37:01.930: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {a92873f6-de13-409b-bf97-5ea3818f6021}
+19:37:15.658: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {a92873f6-de13-409b-bf97-5ea3818f6021} )
+19:37:16.073: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(06:00.870, 3608700000)slider: Time(06:00.870, 3608700000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:37:21.617: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(06:06.296, 3662960000)slider: Time(06:06.270, 3662700000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:37:24.116: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {1dd81898-2ec8-41ba-8fa7-7bc59de86b5d} )
+19:37:24.124: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {1dd81898-2ec8-41ba-8fa7-7bc59de86b5d}
+19:37:24.681: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:37:24.726: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 45
+19:37:30.002: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {1dd81898-2ec8-41ba-8fa7-7bc59de86b5d} )
+19:37:30.625: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(06:06.309, 3663090000)slider: Time(06:06.309, 3663090000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:37:50.990: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(06:26.556, 3865560000)slider: Time(06:26.534, 3865340000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:37:53.800: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {598e7a78-4c78-4fd7-89f1-3b879c8254b2} )
+19:37:53.807: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {598e7a78-4c78-4fd7-89f1-3b879c8254b2}
+19:38:00.863: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {598e7a78-4c78-4fd7-89f1-3b879c8254b2} )
+19:38:01.417: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(06:26.568, 3865680000)slider: Time(06:26.568, 3865680000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:38:04.405: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+19:38:08.359: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+19:38:08.868: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 21 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+19:38:09.362: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+19:38:25.933: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.27 - Copy.mp4"
+19:38:26.553: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 19 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.27 - Copy.mp4"
+19:38:27.473: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+19:38:27.574: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+19:38:27.591: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 14 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.27 - Copy.mp4"
+19:38:45.159: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+19:38:45.713: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 21 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+19:38:46.631: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.27 - Copy.mp4"
+19:38:46.665: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.27 - Copy.mp4"
+19:38:46.711: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+19:39:25.967: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(07:50.994, 4709940000)slider: Time(07:50.963, 4709630000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:39:57.381: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(07:51.007, 4710070000)slider: Time(07:51.007, 4710070000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:40:19.889: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21 (1).mp4"
+19:40:20.143: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21 (1).mp4"
+19:40:21.145: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21 (1).mp4"
+19:40:34.919: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(08:28.533, 5085330000)slider: Time(08:28.519, 5085190000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:42:12.247: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(08:28.546, 5085460000)slider: Time(08:28.546, 5085460000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:42:22.109: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:22.373: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 27 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:23.283: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21 (1).mp4"
+19:42:23.369: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21 (1).mp4"
+19:42:23.392: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:31.631: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 28 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:31.653: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(09:19.655, 5596550000)slider: Time(08:47.878, 5278780000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:42:31.674: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:31.681: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:31.808: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:31.855: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.21.mp4"
+19:42:31.871: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 13 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:39.544: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(09:55.430, 5954300000)slider: Time(09:27.126, 5671260000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:42:39.571: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 24 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:42:39.578: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:42:39.724: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:39.773: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:39.794: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:42:40.977: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(09:56.450, 5964500000)slider: Time(09:56.427, 5964270000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:42:47.039: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:47.047: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 19 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:47.159: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:47.214: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:42:47.237: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:42:50.407: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(09:55.430, 5954300000)slider: Time(09:55.430, 5954300000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:43:06.659: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:11.537, 6115370000)slider: Time(10:11.524, 6115240000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:43:06.660: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:11.537, 6115370000)slider: Time(10:11.537, 6115370000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:43:06.660: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {2379f9f5-a418-4b85-8031-3dcb0bf38bf9} )
+19:43:06.693: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {2379f9f5-a418-4b85-8031-3dcb0bf38bf9}
+19:43:06.783: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 30 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:43:11.473: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {2379f9f5-a418-4b85-8031-3dcb0bf38bf9} )
+19:43:12.113: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(09:57.180, 5971800000)slider: Time(09:57.180, 5971800000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:43:25.628: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:10.571, 6105710000)slider: Time(10:10.553, 6105530000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:43:54.721: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:43:54.757: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 36
+19:43:57.556: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {2379f9f5-a418-4b85-8031-3dcb0bf38bf9} )
+19:43:57.566: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {2379f9f5-a418-4b85-8031-3dcb0bf38bf9}
+19:43:57.622: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 31 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:44:06.585: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {2379f9f5-a418-4b85-8031-3dcb0bf38bf9} )
+19:44:07.933: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:10.589, 6105890000)slider: Time(10:10.589, 6105890000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:44:10.883: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:13.412, 6134120000)slider: Time(10:13.385, 6133850000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:44:18.192: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:13.428, 6134280000)slider: Time(10:13.428, 6134280000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:44:35.101: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:30.326, 6303260000)slider: Time(10:30.315, 6303150000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:44:48.268: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:30.347, 6303470000)slider: Time(10:30.347, 6303470000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:45:01.617: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:43.683, 6436830000)slider: Time(10:43.675, 6436750000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:45:02.637: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:43.706, 6437060000)slider: Time(10:43.706, 6437060000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:45:04.228: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:45.285, 6452850000)slider: Time(10:45.257, 6452570000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:45:14.533: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:45.305, 6453050000)slider: Time(10:45.305, 6453050000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:45:15.454: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:46.213, 6462130000)slider: Time(10:46.196, 6461960000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:45:39.872: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:46.234, 6462340000)slider: Time(10:46.234, 6462340000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:46:18.844: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:19.146: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:20.147: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:22.901: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(11:29.252, 6892520000)slider: Time(11:29.224, 6892240000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:46:25.657: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {213b5b2e-fc52-44b8-b3ee-0003f81a3500} )
+19:46:25.664: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {213b5b2e-fc52-44b8-b3ee-0003f81a3500}
+19:46:25.710: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 21 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:31.003: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {213b5b2e-fc52-44b8-b3ee-0003f81a3500} )
+19:46:31.013: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(11:29.273, 6892730000)slider: Time(11:29.273, 6892730000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:46:31.013: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(11:29.273, 6892730000)slider: Time(11:29.273, 6892730000), state: Player::State(Paused), doc: Doc({0188ac9b-d6)
+19:46:31.028: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 15 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:31.034: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:31.142: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 23 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:34.357: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:02.857, 28570000)slider: Time(00:02.857, 28570000), state: Player::State(Paused), doc: Doc({0188ac9b-d6)
+19:46:34.360: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(00:02.857, 28570000)slider: Time(00:02.857, 28570000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:46:34.394: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+19:46:34.422: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+19:46:34.427: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {213b5b2e-fc52-44b8-b3ee-0003f81a3500} )
+19:46:34.428: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:34.437: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Text, prev Prop_Crop, docClip {213b5b2e-fc52-44b8-b3ee-0003f81a3500}
+19:46:34.456: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:46:39.410: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_Text, docClip {213b5b2e-fc52-44b8-b3ee-0003f81a3500}
+19:46:44.475: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {213b5b2e-fc52-44b8-b3ee-0003f81a3500} )
+19:46:56.218: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:46:56.219: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:46:56.229: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:56.260: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 22 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:56.390: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:56.441: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:56.464: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:46:58.822: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:58.826: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:58.967: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:59.020: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.36.22.mp4"
+19:46:59.041: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+19:47:02.129: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(09:55.430, 5954300000)slider: Time(09:55.430, 5954300000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:47:14.498: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:07.673, 6076730000)slider: Time(10:07.642, 6076420000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:47:27.529: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:07.689, 6076890000)slider: Time(10:07.689, 6076890000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:47:44.573: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(10:24.721, 6247210000)slider: Time(10:24.707, 6247070000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:48:10.484: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(10:24.738, 6247380000)slider: Time(10:24.738, 6247380000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:48:13.753: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(11:27.166, 6871660000)slider: Time(10:27.941, 6279410000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:48:13.773: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:48:13.802: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:48:13.914: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+19:48:25.301: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+19:48:25.804: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 21 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+19:48:26.302: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+19:48:33.201: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Selfie_(Full_Video)__Gurshabad__Harish_Verma__Simi_Chahal__Jatinder_Shah(256kbps).mp3"
+19:48:39.368: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+19:48:47.945: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:01.049, 7210490000)slider: Time(12:01.039, 7210390000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:48:51.251: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {3e9a257c-b5d8-4b40-8d06-6008d9d73304} )
+19:48:51.258: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Audio, docClip {3e9a257c-b5d8-4b40-8d06-6008d9d73304}
+19:48:54.750: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:48:54.785: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 35
+19:48:56.647: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {3e9a257c-b5d8-4b40-8d06-6008d9d73304} )
+19:48:59.080: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:01.065, 7210650000)slider: Time(12:01.065, 7210650000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:49:16.961: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:18.820, 7388200000)slider: Time(12:18.810, 7388100000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:49:26.566: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {757a2b2f-283a-46f8-aab5-d6481592283c} )
+19:49:26.573: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {757a2b2f-283a-46f8-aab5-d6481592283c}
+19:49:34.788: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {757a2b2f-283a-46f8-aab5-d6481592283c} )
+19:49:36.733: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:18.834, 7388340000)slider: Time(12:18.834, 7388340000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:49:38.000: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:19.979, 7399790000)slider: Time(12:19.963, 7399630000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:49:38.857: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:19.993, 7399930000)slider: Time(12:19.993, 7399930000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:49:47.638: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:28.761, 7487610000)slider: Time(12:28.732, 7487320000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:49:52.114: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:28.782, 7487820000)slider: Time(12:28.782, 7487820000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:50:13.463: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:50.119, 7701190000)slider: Time(12:50.108, 7701080000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:50:16.084: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {1bd93512-bc3c-4e9e-a1a6-742c1043931e} )
+19:50:16.092: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {1bd93512-bc3c-4e9e-a1a6-742c1043931e}
+19:50:25.657: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {1bd93512-bc3c-4e9e-a1a6-742c1043931e} )
+19:50:26.397: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:50.141, 7701410000)slider: Time(12:50.141, 7701410000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:50:28.161: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:50:28.753: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:50:29.254: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:50:31.159: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:54.783, 7747830000)slider: Time(12:54.762, 7747620000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:50:33.916: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {46b13c80-b320-40a2-a768-8eb702a8a6a6} )
+19:50:33.923: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {46b13c80-b320-40a2-a768-8eb702a8a6a6}
+19:50:33.976: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 29 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:50:35.338: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 29 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:50:48.883: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {46b13c80-b320-40a2-a768-8eb702a8a6a6} )
+19:50:51.105: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:54.800, 7748000000)slider: Time(12:54.800, 7748000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:50:52.070: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:55.645, 7756450000)slider: Time(12:55.634, 7756340000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:50:53.067: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:55.659, 7756590000)slider: Time(12:55.659, 7756590000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:51:02.122: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:04.703, 7847030000)slider: Time(13:04.673, 7846730000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:51:16.457: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(13:04.718, 7847180000)slider: Time(13:04.718, 7847180000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:51:17.104: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:51:17.531: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 13 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:51:18.423: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:51:18.495: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:51:18.535: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:51:20.089: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:08.339, 7883390000)slider: Time(13:08.328, 7883280000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:51:23.077: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {2652d20b-1914-469f-83a7-00efb038682d} )
+19:51:23.085: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {2652d20b-1914-469f-83a7-00efb038682d}
+19:51:23.134: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 24 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:51:24.674: (I) 15188:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 29 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:51:30.241: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {2652d20b-1914-469f-83a7-00efb038682d} )
+19:51:31.318: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(13:08.357, 7883570000)slider: Time(13:08.357, 7883570000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:51:49.287: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:26.212, 8062120000)slider: Time(13:26.202, 8062020000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:52:19.788: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(13:26.226, 8062260000)slider: Time(13:26.226, 8062260000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:52:22.325: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:28.751, 8087510000)slider: Time(13:28.737, 8087370000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:52:25.090: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {2652d20b-1914-469f-83a7-00efb038682d} )
+19:52:25.100: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {2652d20b-1914-469f-83a7-00efb038682d}
+19:52:25.146: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 19 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:52:30.021: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {2652d20b-1914-469f-83a7-00efb038682d} )
+19:52:31.468: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(13:28.765, 8087650000)slider: Time(13:28.765, 8087650000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:52:49.507: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:46.687, 8266870000)slider: Time(13:46.677, 8266770000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:52:52.183: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {8e408f33-1a68-4c43-a32c-aaffe669de3e} )
+19:52:52.193: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {8e408f33-1a68-4c43-a32c-aaffe669de3e}
+19:52:56.802: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {8e408f33-1a68-4c43-a32c-aaffe669de3e} )
+19:52:59.966: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:52:59.968: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+19:52:59.974: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:00.043: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 15 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:00.446: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:53.656, 7736560000)slider: Time(12:53.656, 7736560000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:53:10.976: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:49.156, 7691560000)slider: Time(13:04.023, 7840230000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:53:13.849: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:19.563: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(12:57.528, 7775280000)slider: Time(12:57.494, 7774940000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:53:22.710: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {46b13c80-b320-40a2-a768-8eb702a8a6a6} )
+19:53:22.718: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_Crop, docClip {46b13c80-b320-40a2-a768-8eb702a8a6a6}
+19:53:22.764: (I) 15188:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 22 ms. Operation context: CROPPREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:27.537: (I) 15188: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {46b13c80-b320-40a2-a768-8eb702a8a6a6} )
+19:53:28.487: (I) 15188: ui.player           : Player::onPlay()                        : Play: clk: Time(12:57.545, 7775450000)slider: Time(12:57.545, 7775450000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+19:53:36.318: (I)  7960:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:53:36.847: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:53:37.767: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:37.869: (W)  1792:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+19:53:37.889: (I)  1792:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 16 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+19:54:20.164: (I) 15188: ui.player           : Player::onPause()                       : Pause: clk: Time(13:49.105, 8291050000)slider: Time(13:49.079, 8290790000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+19:54:24.778: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:54:24.822: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 44
+19:59:18.001: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+19:59:18.012: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 11
+20:04:18.004: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:04:18.012: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:09:18.001: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:09:18.009: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:14:18.004: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:14:18.009: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 5
+20:19:18.014: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:19:18.022: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:24:18.028: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:24:18.036: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:29:18.043: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:29:18.051: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:34:18.054: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:34:18.061: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 7
+20:39:18.056: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:39:18.064: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:44:18.067: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:44:18.074: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 7
+20:49:18.069: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:49:18.077: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:54:18.068: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:54:18.076: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+20:59:18.068: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+20:59:18.076: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+21:04:18.065: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+21:04:18.073: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+21:09:18.066: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+21:09:18.074: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 8
+21:14:18.070: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+21:14:18.084: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 14
+21:19:18.080: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+21:19:18.087: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 7
+21:24:18.084: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+21:24:18.093: (I) 15188: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 9
+21:28:17.923: (I) 15188: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+21:28:17.924: (I) 15188: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 1
+21:28:17.933: (I) 15188: ui.player           : Player::~Player                         : Entering 'Delete player'
+21:28:18.104: (I) 15188: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 170

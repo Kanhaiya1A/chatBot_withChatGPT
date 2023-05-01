@@ -1,0 +1,648 @@
+
+
+------------------------------------------------------------
+Application started
+10:24:43.947: (I) 11184: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+10:24:43.947: (I) 11184: ice.systeminfo      : Kernel version: "10.0.18362"
+10:24:43.947: (I) 11184: ice.systeminfo      : CPU architecture: "x86_64"
+10:24:43.947: (I) 11184: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+10:24:43.947: (I) 11184: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+10:24:43.947: (I) 11184: ice.systeminfo      : BuildVersion: "1.5.3"
+10:24:43.950: (I) 11184: ice.systeminfo      : DisplayVersion: "1.53"
+10:24:43.950: (I) 11184: ice.systeminfo      : PID: 796
+10:24:43.950: (I) 11184: ice.systeminfo      : Main thread id: 11184
+10:24:43.950: (I) 11184: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+10:24:43.950: (I) 11184: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+10:24:43.950: (I) 11184: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+10:24:43.950: (I) 11184: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+10:24:43.950: (I) 11184: ice.systeminfo      : Screen 0: primary, scale: 85%, pixelRatio: 1, logDpi: 120, phyDpi: 141.951, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1030}
+10:24:43.950: (I) 11184: ice.systeminfo      : 
+10:24:43.954: (I) 11184: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_IN"
+10:24:43.956: (I) 11184: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+10:24:43.956: (I) 11184: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+10:24:43.956: (I) 11184: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+10:24:45.544: (I) 11184: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+10:24:46.199: (I) 11184: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 655 msec
+10:24:46.200: (I) 11184: app.app             : Application::init                       : Entering 'Init app'
+10:24:46.258: (I) 11184: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+10:24:46.275: (I) 11184: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+10:24:46.275: (I) 11184: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+10:24:46.275: (I) 11184: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+10:24:46.286: (I) 11184: ui.player           : Player::Player                          :     Entering 'Create player'
+10:24:46.350: (I) 11184:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) UHD Graphics 630"
+10:24:46.350: (I) 11184:                     : Player::Player()                        :       --- preview context ---
+10:24:46.350: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+10:24:46.350: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+10:24:46.350: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+10:24:46.351: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+10:24:46.351: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+10:24:47.249: (I) 11184: ice.splash          : IceSplash::Private::onMinDurationReached:       Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+10:24:47.249: (I) 11184: ice.splash          : IceSplash::Private::onMinDurationReached:       Main window still not exists, connect to iceUi->mainWindowCreated()
+10:24:47.276: (I) 11184:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+10:24:47.300: (I) 11184:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) UHD Graphics 630"
+10:24:47.300: (I) 11184:                     : Player::Player()                        :       --- mediaprocessor context ---
+10:24:47.300: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+10:24:47.300: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+10:24:47.300: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+10:24:47.300: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+10:24:47.300: (I) 11184:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+10:24:47.398: (W) 14176:                     :       QObject::connect: Cannot queue arguments of type 'DeviceInitState'
+(Make sure 'DeviceInitState' is registered using qRegisterMetaType().)
+10:24:47.418: (I) 11184: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1132
+10:24:47.713: (I) 11184: ice.windowgeometry  : IceWindow::readState()                  :     Restore saved geometry: QRect(460,165 1021x700)
+10:24:47.714: (I) 11184: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1439
+10:24:47.793: (I) 11184: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1593
+10:24:47.794: (I) 11184: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+10:24:47.794: (I) 11184: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+10:24:47.794: (I) 11184: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents"
+10:24:47.809: (I) 11184: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+10:24:47.814: (I) 11184: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x1a95b311f60, name="MainWindow")
+10:24:47.814: (I) 10380: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+10:24:47.911: (I) 10380: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 97
+10:24:48.088: (I) 11184: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+10:24:48.089: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+10:24:48.089: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+10:24:48.094: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+10:24:48.094: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+10:24:48.095: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+10:24:48.095: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 6
+10:24:48.095: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+10:24:48.095: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+10:24:48.095: (I) 11184: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Stopped), doc: Doc(My project 5, {eecf353b-42...)
+10:24:48.095: (I) 13136:                     : mediaprocessor::runVideo()              :       Mediaprocessor type:  "PLAY" . Thread ID:  13136
+10:24:48.116: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+10:24:48.118: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+10:24:48.118: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+10:24:48.142: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 47
+10:24:48.142: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+10:24:48.142: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 31
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+10:24:48.173: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+10:24:48.173: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+10:24:48.173: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+10:24:48.231: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+10:24:48.231: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 58
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 58
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+10:24:48.231: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+10:24:48.232: (I) 11184: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 1
+10:24:48.232: (I) 11184: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 423
+10:24:48.232: (I) 11184: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 438
+10:24:48.372: (I) 11184: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+10:24:48.372: (I) 11184: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+10:24:48.372: (I) 11184: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+10:24:48.372: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/WhatsApp Video 2020-03-04 at 22.53.01.mp4"
+10:24:48.383: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Ja_Ja_Udd_Ja_Re_Panchhi_[Full_Song]_Itihaas(256kbps).mp3"
+10:24:48.390: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_133429.jpg"
+10:24:48.392: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_134738.jpg"
+10:24:48.393: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140329.jpg"
+10:24:48.394: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140332.jpg"
+10:24:48.395: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140356.jpg"
+10:24:48.396: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140358.jpg"
+10:24:48.397: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140401.jpg"
+10:24:48.398: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140403.jpg"
+10:24:48.399: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140501.jpg"
+10:24:48.400: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_140502.jpg"
+10:24:48.401: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_155451.jpg"
+10:24:48.402: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073455.jpg"
+10:24:48.403: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073502.jpg"
+10:24:48.409: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g2.jpg"
+10:24:48.412: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/kanh.jpg"
+10:24:48.415: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g99.jpg"
+10:24:48.417: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/g4.jpg"
+10:24:48.418: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/download (1).jpg"
+10:24:48.421: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/download.jpg"
+10:24:48.423: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/599b3b0ac5d5af607cf35cceacc44429.jpg"
+10:24:48.457: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0109.jpg"
+10:24:48.458: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0070.jpg"
+10:24:48.460: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0079.jpg"
+10:24:48.462: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0081.jpg"
+10:24:50.629: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+10:24:52.793: (I) 11184: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=1.53&pid=9&mh=e91e9cfe6bdd799ad8a936be50847486&h=1a69927ccd36ded4ff915388bb990bff"
+10:24:53.933: (I) 11184: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "1.54"
+10:24:53.934: (I) 11184: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "1.54" current version: 1.53 result: 1
+10:24:53.934: (I) 11184: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Emit newVersionAvalible: "1.54"
+10:24:53.934: (I) 11184: ice.updater         : IceApplication::initUpdateChecker::lambd: Ask about new version
+10:25:04.605: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:25:07.315: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:45.139, 451390000)slider: Time(00:45.139, 451390000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:07.397: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0082.jpg"
+10:25:07.418: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0085.jpg"
+10:25:07.481: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0091.jpg"
+10:25:07.564: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/ranju.jpg"
+10:25:07.963: (W) 11184:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  11184
+10:25:07.964: (W) 11184:                     : scrubbingservice::getReader()           : Context: scrubbing
+10:25:07.964: (W) 11184:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the path specified."
+10:25:07.982: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(02:07.894, 1278940000)slider: Time(02:07.894, 1278940000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:08.029: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0012.jpg"
+10:25:08.034: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0017.jpg"
+10:25:08.051: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0086.jpg"
+10:25:08.053: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/pkkkk.jpg"
+10:25:08.080: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0011.jpg"
+10:25:08.089: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0051.jpg"
+10:25:08.091: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0023.jpg"
+10:25:08.094: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0006.jpg"
+10:25:08.117: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0050.jpg"
+10:25:08.120: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0057.jpg"
+10:25:08.123: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0054.jpg"
+10:25:08.149: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0069.jpg"
+10:25:08.151: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0071.jpg"
+10:25:08.167: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0053.jpg"
+10:25:08.172: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0048.jpg"
+10:25:08.183: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0020.jpg"
+10:25:08.211: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0030.jpg"
+10:25:08.221: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200229-WA0060.mp4"
+10:25:08.566: (W) 11184:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  11184
+10:25:08.566: (W) 11184:                     : scrubbingservice::getReader()           : Context: scrubbing
+10:25:08.566: (W) 11184:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the path specified."
+10:25:08.581: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(03:36.918, 2169180000)slider: Time(03:36.918, 2169180000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:08.761: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0030.mp4"
+10:25:09.036: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.42 - Copy.mp4"
+10:25:09.281: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(05:28.512, 3285120000)slider: Time(05:28.512, 3285120000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:09.346: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0110.mp4"
+10:25:09.372: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/v/VID-20200304-WA0031.mp4"
+10:25:09.481: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/images.png"
+10:25:09.784: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+10:25:10.148: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(06:27.444, 3874440000)slider: Time(06:27.444, 3874440000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:10.189: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/k1111.jpg"
+10:25:10.198: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+10:25:10.207: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200302_133356.jpg"
+10:25:10.249: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0026.jpg"
+10:25:10.253: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0018.jpg"
+10:25:10.255: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0036.jpg"
+10:25:10.257: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0023.jpg"
+10:25:10.258: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0028.jpg"
+10:25:10.275: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0042.jpg"
+10:25:10.282: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0034.jpg"
+10:25:10.299: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0051.jpg"
+10:25:10.323: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/IMG-20200304-WA0038.jpg"
+10:25:10.329: (I) 15752:                     : main::lambda()                          : Dxdiag tool completed with status : QProcess::ExitStatus(NormalExit) . Exit code:  0 . Error code:  QProcess::ProcessError(UnknownError)
+10:25:10.337: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0046.jpg"
+10:25:10.339: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0053.jpg"
+10:25:10.360: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0056.jpg"
+10:25:10.859: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 118 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.34.14.mp4"
+10:25:11.197: (I) 11184:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 68 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+10:25:11.214: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(07:41.422, 4614220000)slider: Time(07:41.422, 4614220000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:11.241: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+10:25:11.249: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 34 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.35.57.mp4"
+10:25:12.526: (I) 11184:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 53 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+10:25:12.543: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(09:53.077, 5930770000)slider: Time(09:53.077, 5930770000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:12.568: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 21 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+10:25:12.577: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/New folder/WhatsApp Video 2020-03-06 at 18.37.01.mp4"
+10:25:12.622: (W) 13136:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+10:25:14.153: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(11:13.325, 6733250000)slider: Time(11:13.325, 6733250000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:15.448: (W) 11184:                     : scrubbingservice::getReader()           : MF video reader open FAILED! Thread Id:  11184
+10:25:15.448: (W) 11184:                     : scrubbingservice::getReader()           : Context: scrubbing
+10:25:15.448: (W) 11184:                     : scrubbingservice::getReader()           : Info:  "createReader(...) FAILED! Info: create reader from file. Message: The system cannot find the file specified."
+10:25:15.475: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(11:57.210, 7172100000)slider: Time(11:57.210, 7172100000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:15.603: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - marriage anniversary special songs + WhatsApp status lyrics Vedio songs _ janam janam- udit & alka_9gZys_H5Aag_1080p.mp4"
+10:25:15.776: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+10:25:17.434: (I) 11184:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 66 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+10:25:17.458: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(12:22.287, 7422870000)slider: Time(12:22.287, 7422870000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:17.489: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 27 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.33.02.mp4"
+10:25:17.660: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/k3.jpg"
+10:25:18.392: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(12:37.333, 7573330000)slider: Time(12:37.333, 7573330000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:18.965: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+10:25:19.142: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(12:59.903, 7799030000)slider: Time(12:59.903, 7799030000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:19.202: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0045.jpg"
+10:25:19.234: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0033.jpg"
+10:25:19.253: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0035.jpg"
+10:25:19.320: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0036.jpg"
+10:25:19.411: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0044.jpg"
+10:25:19.426: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+10:25:20.669: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(13:18.711, 7987110000)slider: Time(13:18.711, 7987110000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:20.709: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0101.jpg"
+10:25:20.769: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0063.jpg"
+10:25:20.801: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.37.08.mp4"
+10:25:20.813: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0037.jpg"
+10:25:20.923: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0034.jpg"
+10:25:21.238: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0062.jpg"
+10:25:21.436: (I) 11184:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 54 ms. Operation context: PREVIEW. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+10:25:21.453: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(13:51.311, 8313110000)slider: Time(13:51.311, 8313110000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:21.474: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+10:25:21.484: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/document/New folder/WhatsApp Video 2020-03-06 at 18.38.12.mp4"
+10:25:21.519: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/k2.jpg"
+10:25:26.879: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(14:00.088, 8400880000)slider: Time(14:00.088, 8400880000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:27.675: (I) 11184: ui.player           : Player::onPlay()                        : Play from start: clk: Time(14:31.435, 8714350000)slider: Time(14:31.435, 8714350000), state: Player::State(Scrubbing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:27.849: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(14:31.453, 8714530000)slider: Time(14:31.435, 8714350000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:25:45.793: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG_20200303_073508.jpg"
+10:25:45.794: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0005.jpg"
+10:25:45.797: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0007.jpg"
+10:25:45.798: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0009.jpg"
+10:25:46.023: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0010.jpg"
+10:25:46.025: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0012.jpg"
+10:25:46.026: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0013.jpg"
+10:25:46.028: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0014.jpg"
+10:25:46.098: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0015.jpg"
+10:25:46.100: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0016.jpg"
+10:25:46.101: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0017.jpg"
+10:25:46.103: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0018.jpg"
+10:25:46.104: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0019.jpg"
+10:25:46.126: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0021.jpg"
+10:25:46.127: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0022.jpg"
+10:25:46.129: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0023.jpg"
+10:25:46.130: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0024.jpg"
+10:25:46.152: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0025.jpg"
+10:25:46.153: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0026.jpg"
+10:25:46.155: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0027.jpg"
+10:25:46.156: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0028.jpg"
+10:25:46.158: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0029.jpg"
+10:25:46.205: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0031.jpg"
+10:25:46.206: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0032.jpg"
+10:25:46.208: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0033.jpg"
+10:25:46.209: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0034.jpg"
+10:25:46.257: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0035.jpg"
+10:25:46.259: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0036.jpg"
+10:25:46.260: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0037.jpg"
+10:25:46.262: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0038.jpg"
+10:25:46.263: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0039.jpg"
+10:25:46.326: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0040.jpg"
+10:25:46.328: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0041.jpg"
+10:25:46.329: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0042.jpg"
+10:25:46.330: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0043.jpg"
+10:25:46.331: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0044.jpg"
+10:25:46.366: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0045.jpg"
+10:25:46.368: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0046.jpg"
+10:25:46.369: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0047.jpg"
+10:25:46.371: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0049.jpg"
+10:25:46.408: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0052.jpg"
+10:25:46.448: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0055.jpg"
+10:25:46.449: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0056.jpg"
+10:25:46.451: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0058.jpg"
+10:25:46.452: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0059.jpg"
+10:25:46.470: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0061.jpg"
+10:25:46.471: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0062.jpg"
+10:25:46.472: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0063.jpg"
+10:25:46.473: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0064.jpg"
+10:25:46.474: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0065.jpg"
+10:25:46.491: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0066.jpg"
+10:25:46.493: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0067.jpg"
+10:25:46.494: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0068.jpg"
+10:25:46.496: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0070.jpg"
+10:25:46.514: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0072.jpg"
+10:25:46.515: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0073.jpg"
+10:25:46.516: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0074.jpg"
+10:25:46.517: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0075.jpg"
+10:25:46.535: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0076.jpg"
+10:25:46.536: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0077.jpg"
+10:25:46.538: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0078.jpg"
+10:25:46.539: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0079.jpg"
+10:25:46.540: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0080.jpg"
+10:25:46.585: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0081.jpg"
+10:25:46.587: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200229-WA0082.jpg"
+10:25:46.588: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200301-WA0005.jpg"
+10:25:46.589: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200301-WA0006.jpg"
+10:25:46.590: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0006.jpg"
+10:25:46.627: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0007.jpg"
+10:25:46.628: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0008.jpg"
+10:25:46.629: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0009.jpg"
+10:25:46.630: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0010.jpg"
+10:25:46.632: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0011.jpg"
+10:25:46.689: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0012.jpg"
+10:25:46.690: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0013.jpg"
+10:25:46.691: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0014.jpg"
+10:25:46.692: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0015.jpg"
+10:25:46.693: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0016.jpg"
+10:25:46.746: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0017.jpg"
+10:25:46.748: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0019.jpg"
+10:25:46.749: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0020.jpg"
+10:25:46.750: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0021.jpg"
+10:25:46.768: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0022.jpg"
+10:25:46.770: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0024.jpg"
+10:25:46.771: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0025.jpg"
+10:25:46.772: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0026.jpg"
+10:25:46.807: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0027.jpg"
+10:25:46.808: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0028.jpg"
+10:25:46.809: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0029.jpg"
+10:25:46.809: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0030.jpg"
+10:25:46.810: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0031.jpg"
+10:25:46.823: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0032.jpg"
+10:25:46.824: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0033.jpg"
+10:25:46.825: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0034.jpg"
+10:25:46.825: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0035.jpg"
+10:25:46.826: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0036.jpg"
+10:25:46.855: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0037.jpg"
+10:25:46.856: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0038.jpg"
+10:25:46.857: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200302-WA0043.jpg"
+10:25:46.858: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0007.jpg"
+10:25:46.859: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0008.jpg"
+10:25:46.890: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0009.jpg"
+10:25:46.892: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0010.jpg"
+10:25:46.892: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0011.jpg"
+10:25:46.894: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0013.jpg"
+10:25:46.932: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0014.jpg"
+10:25:46.933: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0015.jpg"
+10:25:46.934: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0016.jpg"
+10:25:46.936: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0018.jpg"
+10:25:47.012: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0019.jpg"
+10:25:47.014: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0020.jpg"
+10:25:47.015: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0021.jpg"
+10:25:47.016: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0022.jpg"
+10:25:47.017: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0023.jpg"
+10:25:47.074: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0024.jpg"
+10:25:47.074: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0025.jpg"
+10:25:47.076: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0026.jpg"
+10:25:47.077: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0027.jpg"
+10:25:47.078: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0028.jpg"
+10:25:47.115: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0029.jpg"
+10:25:47.116: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0030.jpg"
+10:25:47.118: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0031.jpg"
+10:25:47.119: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0032.jpg"
+10:25:47.157: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0038.jpg"
+10:25:47.159: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0039.jpg"
+10:25:47.160: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0040.jpg"
+10:25:47.161: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0041.jpg"
+10:25:47.162: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0042.jpg"
+10:25:47.163: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0043.jpg"
+10:25:47.183: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0046.jpg"
+10:25:47.184: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0047.jpg"
+10:25:47.185: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0048.jpg"
+10:25:47.222: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0049.jpg"
+10:25:47.223: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0050.jpg"
+10:25:47.225: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0051.jpg"
+10:25:47.226: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0052.jpg"
+10:25:47.227: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0053.jpg"
+10:25:47.265: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0054.jpg"
+10:25:47.266: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0055.jpg"
+10:25:47.267: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0056.jpg"
+10:25:47.268: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0057.jpg"
+10:25:47.269: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0058.jpg"
+10:25:47.327: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0059.jpg"
+10:25:47.328: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0060.jpg"
+10:25:47.329: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0061.jpg"
+10:25:47.330: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0062.jpg"
+10:25:47.331: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0063.jpg"
+10:25:47.408: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0064.jpg"
+10:25:47.409: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0065.jpg"
+10:25:47.410: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200303-WA0066.jpg"
+10:25:47.411: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0002.jpg"
+10:25:47.413: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0003.jpg"
+10:25:47.450: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0004.jpg"
+10:25:47.451: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0005.jpg"
+10:25:47.453: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0006.jpg"
+10:25:47.454: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0007.jpg"
+10:25:47.455: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0008.jpg"
+10:25:47.492: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0009.jpg"
+10:25:47.493: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0010.jpg"
+10:25:47.495: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0011.jpg"
+10:25:47.496: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0012.jpg"
+10:25:47.497: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0013.jpg"
+10:25:47.514: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0014.jpg"
+10:25:47.516: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0015.jpg"
+10:25:47.517: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0016.jpg"
+10:25:47.518: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0017.jpg"
+10:25:47.519: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0018.jpg"
+10:25:47.556: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0019.jpg"
+10:25:47.557: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0020.jpg"
+10:25:47.559: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0021.jpg"
+10:25:47.560: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0022.jpg"
+10:25:47.599: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0024.jpg"
+10:25:47.600: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0025.jpg"
+10:25:47.602: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0027.jpg"
+10:25:47.620: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0029.jpg"
+10:25:47.622: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0032.jpg"
+10:25:47.622: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0033.jpg"
+10:25:47.624: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0035.jpg"
+10:25:47.682: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0037.jpg"
+10:25:47.683: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0038.jpg"
+10:25:47.684: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0039.jpg"
+10:25:47.686: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0040.jpg"
+10:25:47.743: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0041.jpg"
+10:25:47.745: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0043.jpg"
+10:25:47.746: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0044.jpg"
+10:25:47.748: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0045.jpg"
+10:25:47.785: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0047.jpg"
+10:25:47.786: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0048.jpg"
+10:25:47.787: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0049.jpg"
+10:25:47.789: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0050.jpg"
+10:25:47.827: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0052.jpg"
+10:25:47.829: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0054.jpg"
+10:25:47.830: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0055.jpg"
+10:25:47.868: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0057.jpg"
+10:25:47.869: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0058.jpg"
+10:25:47.870: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0059.jpg"
+10:25:47.872: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0060.jpg"
+10:25:47.926: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0061.jpg"
+10:25:47.929: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0064.jpg"
+10:25:47.929: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0065.jpg"
+10:25:47.987: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0066.jpg"
+10:25:47.988: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0067.jpg"
+10:25:47.989: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0068.jpg"
+10:25:47.990: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0069.jpg"
+10:25:48.068: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0071.jpg"
+10:25:48.069: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0072.jpg"
+10:25:48.070: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0073.jpg"
+10:25:48.071: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0074.jpg"
+10:25:48.073: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0075.jpg"
+10:25:48.130: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0076.jpg"
+10:25:48.131: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0077.jpg"
+10:25:48.132: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0078.jpg"
+10:25:48.134: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0080.jpg"
+10:25:48.173: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0083.jpg"
+10:25:48.174: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0084.jpg"
+10:25:48.194: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0087.jpg"
+10:25:48.195: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0088.jpg"
+10:25:48.196: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0089.jpg"
+10:25:48.197: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0090.jpg"
+10:25:48.256: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0092.jpg"
+10:25:48.257: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0093.jpg"
+10:25:48.258: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0094.jpg"
+10:25:48.260: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0095.jpg"
+10:25:48.339: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0096.jpg"
+10:25:48.340: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0097.jpg"
+10:25:48.341: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0098.jpg"
+10:25:48.342: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0099.jpg"
+10:25:48.343: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/New folder (4)/i/IMG-20200304-WA0100.jpg"
+10:25:48.461: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+10:25:48.464: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+10:25:48.472: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+10:25:48.483: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/Screenshot_20200215-183508.png"
+10:25:48.520: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+10:25:49.134: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Selfie_(Full_Video)__Gurshabad__Harish_Verma__Simi_Chahal__Jatinder_Shah(256kbps).mp3"
+10:25:49.136: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Desktop/Agar_Aasman_Tak_Mere_Haath_Jaate_Full_HD_Song__Meherbaan__Mithun_Chakraborty,_Ayasha_Julka(256kbps).mp3"
+10:25:49.202: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - New status??Wedding status??Taaron ka chamakta??latest??Hindi status??lovely??Shadi??love??Whatsapp_d2Qa8eZ3h1o.mp3"
+10:25:49.212: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - Whatsapp status-Tu keech meri photo_b01Xfljg3Wg.mp3"
+10:25:49.214: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - Super status tu khich meri photo....._Jbx8Pd4m2Pg_360p.mp4"
+10:25:49.216: (W) 11184: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/kanha/Downloads/y2mate.com - Super status tu khich meri photo....._Jbx8Pd4m2Pg.mp3"
+10:26:48.758: (I) 15552:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:49.236: (I) 12064:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1586667409077 ms. Operation context: THUMBNAIL. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:54.639: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+10:26:54.640: (I) 15552: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+10:26:54.655: (I) 15552: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+10:26:54.656: (I) 15552: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 17
+10:26:54.695: (I) 11184:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 39 ms. Operation context: PREVIEW. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:54.747: (I)  4200:                     : mfreaderaudio::open()                   :   open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:54.782: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 143
+10:26:54.792: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 51 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:55.089: (I) 14368:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1586667414767 ms. Operation context: THUMBNAIL. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:26:57.650: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:26:57.690: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:26:58.787: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:27:02.014: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(00:03.213, 32130000)slider: Time(00:03.205, 32050000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:27:02.018: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(00:03.229, 32290000)slider: Time(00:03.205, 32050000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:27:02.018: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(00:03.229, 32290000)slider: Time(00:03.205, 32050000), state: Player::State(Paused), doc: Doc({1f4591f1-dc)
+10:27:02.198: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 176 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:27:02.198: (I) 11184:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 180 ms. Operation context: PREVIEW. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:27:06.149: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({1f4591f1-dc)
+10:27:06.190: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:10.679: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({1f4591f1-dc)
+10:27:12.568: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(02:04.925, 1249250000)slider: Time(02:04.925, 1249250000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:15.500: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(02:13.541, 1335410000)slider: Time(02:13.541, 1335410000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:16.135: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(28:08.642, 16886420000)slider: Time(28:08.642, 16886420000), state: Player::State(Scrubbing), doc: Doc({1f4591f1-dc)
+10:27:16.762: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(28:51.719, 17317190000)slider: Time(28:51.719, 17317190000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:17.086: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(31:35.414, 18954140000)slider: Time(31:35.414, 18954140000), state: Player::State(Scrubbing), doc: Doc({1f4591f1-dc)
+10:27:20.808: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(31:31.106, 18911060000)slider: Time(31:31.106, 18911060000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:21.001: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(30:30.798, 18307980000)slider: Time(30:30.798, 18307980000), state: Player::State(Scrubbing), doc: Doc({1f4591f1-dc)
+10:27:22.286: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(28:30.180, 17101800000)slider: Time(28:30.180, 17101800000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:27:33.711: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:01.865, 12018650000)slider: Time(20:01.865, 12018650000), state: Player::State(Scrubbing), doc: Doc({1f4591f1-dc)
+10:27:57.667: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:06.481, 12664810000)slider: Time(21:06.481, 12664810000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:28:16.844: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:36.327, 12363270000)slider: Time(20:36.327, 12363270000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:28:24.415: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:28.020, 12880200000)slider: Time(21:28.020, 12880200000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:28:46.449: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:29:03.771: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:32.328, 12923280000)slider: Time(21:32.328, 12923280000), state: Player::State(Scrubbing), doc: Doc({1f4591f1-dc)
+10:29:06.846: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(21:35.113, 12951130000)slider: Time(21:35.099, 12950990000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:29:09.465: (W) 13136:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:29:17.826: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:29:48.228: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+10:29:48.303: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 75
+10:29:50.061: (I) 11184: ui.player           : Player::onPlay()                        : Play from start: clk: Time(21:36.636, 12966360000)slider: Time(21:36.636, 12966360000), state: Player::State(Paused), doc: Doc({1f4591f1-dc)
+10:29:51.972: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:10.480, 12104800000)slider: Time(20:10.480, 12104800000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:29:56.080: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:57.866, 12578660000)slider: Time(20:57.866, 12578660000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:30:08.222: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(21:09.747, 12697470000)slider: Time(21:09.734, 12697340000), state: Player::State(Playing), doc: Doc({1f4591f1-dc)
+10:30:33.468: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(20:57.866, 12578660000)slider: Time(20:57.866, 12578660000), state: Player::State(Paused), doc: Doc({1f4591f1-dc)
+10:30:33.471: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(20:57.866, 12578660000)slider: Time(20:57.866, 12578660000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:30:33.696: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 213 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:30:33.978: (I) 17812:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1586667633722 ms. Operation context: THUMBNAIL. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:30:44.217: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+10:30:44.218: (I)  7804: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+10:30:44.220: (I)  7804: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+10:30:44.220: (I)  7804: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 2
+10:30:44.280: (I) 11184: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 63
+10:30:44.324: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 54 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:30:44.330: (I) 17812:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1586667644276 ms. Operation context: THUMBNAIL. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:30:47.436: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(20:57.866, 12578660000)slider: Time(20:57.866, 12578660000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:30:47.436: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(20:57.866, 12578660000)slider: Time(20:57.866, 12578660000), state: Player::State(Paused), doc: Doc({9569d0f9-b2)
+10:30:47.485: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 45 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:30:52.232: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc({9569d0f9-b2)
+10:30:53.646: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Playing), doc: Doc({9569d0f9-b2)
+10:30:58.124: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:36.636, 12966360000)slider: Time(21:36.636, 12966360000), state: Player::State(Scrubbing), doc: Doc({9569d0f9-b2)
+10:30:59.249: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:36.636, 12966360000)slider: Time(21:36.636, 12966360000), state: Player::State(Playing), doc: Doc({9569d0f9-b2)
+10:31:06.795: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(22:06.790, 13267900000)slider: Time(22:06.790, 13267900000), state: Player::State(Scrubbing), doc: Doc({9569d0f9-b2)
+10:31:09.175: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(22:08.969, 13289690000)slider: Time(22:08.956, 13289560000), state: Player::State(Playing), doc: Doc({9569d0f9-b2)
+10:31:12.774: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(22:08.985, 13289850000)slider: Time(22:08.985, 13289850000), state: Player::State(Paused), doc: Doc({9569d0f9-b2)
+10:31:12.778: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(22:08.985, 13289850000)slider: Time(22:08.985, 13289850000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:31:12.966: (I) 17812:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1586667672901 ms. Operation context: THUMBNAIL. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:12.975: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 144 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:20.941: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 42 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:20.990: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:21.020: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 46 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:28.544: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:56.866, 12568660000)slider: Time(20:56.866, 12568660000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:31:28.832: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 67 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:36.181: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:03.832, 12638320000)slider: Time(21:03.832, 12638320000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:36.877: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:03.654, 12636540000)slider: Time(21:03.654, 12636540000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:37.365: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:03.258, 12632580000)slider: Time(21:03.258, 12632580000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:37.847: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:02.869, 12628690000)slider: Time(21:02.869, 12628690000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:38.294: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:02.461, 12624610000)slider: Time(21:02.461, 12624610000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:38.719: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:02.028, 12620280000)slider: Time(21:02.028, 12620280000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:39.135: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:01.609, 12616090000)slider: Time(21:01.609, 12616090000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:39.547: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:01.194, 12611940000)slider: Time(21:01.194, 12611940000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:39.948: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:00.786, 12607860000)slider: Time(21:00.786, 12607860000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:40.294: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(21:00.410, 12604100000)slider: Time(21:00.410, 12604100000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:40.603: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:59.995, 12599950000)slider: Time(20:59.995, 12599950000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:41.748: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:46.723, 12467230000)slider: Time(20:46.723, 12467230000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:41.925: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 105 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:31:41.998: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(19:56.452, 11964520000)slider: Time(19:56.452, 11964520000), state: Player::State(Scrubbing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:48.744: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:03.407, 12034070000)slider: Time(20:03.407, 12034070000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:50.543: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:05.545, 12055450000)slider: Time(20:05.545, 12055450000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:52.031: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:07.295, 12072950000)slider: Time(20:07.295, 12072950000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:52.926: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:08.339, 12083390000)slider: Time(20:08.339, 12083390000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:53.727: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:09.396, 12093960000)slider: Time(20:09.396, 12093960000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:56.241: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:12.164, 12121640000)slider: Time(20:12.164, 12121640000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:57.452: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:13.540, 12135400000)slider: Time(20:13.540, 12135400000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:58.857: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:15.114, 12151140000)slider: Time(20:15.114, 12151140000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:31:59.987: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:16.414, 12164140000)slider: Time(20:16.414, 12164140000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:04.071: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:20.663, 12206630000)slider: Time(20:20.663, 12206630000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:04.771: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:21.696, 12216960000)slider: Time(20:21.696, 12216960000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:05.328: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:22.503, 12225030000)slider: Time(20:22.503, 12225030000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:05.802: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:23.234, 12232340000)slider: Time(20:23.234, 12232340000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:06.221: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:23.919, 12239190000)slider: Time(20:23.919, 12239190000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:06.702: (I) 11184: ui.player           : Player::onPlay()                        : Play: clk: Time(20:24.689, 12246890000)slider: Time(20:24.689, 12246890000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:37.686: (I)  4200:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:32:39.182: (I) 13136:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 43 ms. Operation context: PLAY. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:32:47.735: (I) 11184: app.export          : Ui::exportCurrentDocument()             : Begin export
+10:32:47.735: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+10:32:47.757: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 22
+10:32:47.999: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(21:05.798, 12657980000)slider: Time(21:05.519, 12655190000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+10:32:51.125: (I) 11184: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+10:32:51.125: (I)  5288:                     : threadProc()                            : Encoder thread id:  5288
+10:32:51.125: (I)  5288:                     : threadProc()                            : --- start encoding thread ---
+10:32:51.153: (I)  5288:                     : threadProc()                            : --- encoder context ---
+10:32:51.153: (I)  5288:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+10:32:51.153: (I)  5288:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+10:32:51.153: (I)  5288:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+10:32:51.153: (I)  5288:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+10:32:51.153: (I)  5288:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+10:32:51.153: (W)  5288:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+10:32:51.153: (I)  5288:                     : threadProc()                            : encoding mediaprocessor init done
+10:32:51.153: (I) 11896:                     : mediaprocessor::runVideo()              : Mediaprocessor type:  "ENCODING" . Thread ID:  11896
+10:32:51.153: (I)  5288:                     : threadProc()                            : output format:  mp4
+10:32:51.153: (I)  5288:                     : threadProc()                            : quality:  3
+10:32:51.153: (I)  5288:                     : threadProc()                            : frame size:  "1920x1080"
+10:32:51.153: (I)  5288:                     : threadProc()                            : document duration:  67664910000
+10:32:51.153: (I)  5288:                     : threadProc()                            : clip count:  2
+10:32:51.154: (I)  5288:                     : threadProc()                            : transition count:  1
+10:32:51.154: (I)  5288:                     : threadProc()                            : most used transition:  "Dissolve"
+10:32:51.154: (W)  5288:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+10:32:51.154: (I)  5288:                     : threadProc()                            : encoding starting - output  "C:\\Users\\kanha\\Desktop\\My project 5 2020-04-12_10-32-47.mp4"
+10:32:51.157: (I)  3600:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:32:51.167: (I)  5288:                     : threadProc()                            : --- encoding parameters ---
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : use MF encoder
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : width:  1920
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : height:  1080
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : fps:  30
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : use hw:  true
+10:32:51.167: (I)  5288:                     : mfencoder::dumpSettings()               : video bitrate:  17418240
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : audio bitrate:  384000
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : sample rate:  48000
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : channels num:  2
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : channels mask:  3
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : audio format:  1
+10:32:51.168: (I)  5288:                     : mfencoder::dumpSettings()               : bits per sample:  16
+10:32:51.168: (I)  5288:                     : threadProc()                            : profile:  2
+10:32:51.185: (I) 11184: ui.player           : Player::onPause()                       : Pause: clk: Time(21:05.808, 12658080000)slider: Time(21:05.808, 12658080000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+10:32:51.234: (I) 11896:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 81 ms. Operation context: ENCODING. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:32:52.166: (I)  5288:                     : threadProc()                            : encoder opened
+10:42:00.633: (W)  5288:                     : threadProc::lambda()                    : Can't read frame for encoder
+10:44:30.819: (I)  3600:                     : mfreaderaudio::open()                   : open audio:  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:44:31.102: (I) 11896:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 77 ms. Operation context: ENCODING. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+10:44:31.918: (I) 11896:                     : videoprocessor::getImageFromReader()    : "Reader succesfully opened in 130 ms. Operation context: ENCODING. File path: D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+11:35:24.879: (W) 11896:                     : videoprocessor::getImageFromReader()    : can't get frame from video reader  "D:/aniket movies/Dark.Phoenix.2019.720p.BluRay.Hin-Eng.x264.ESub-KatmovieHD.To.mkv"
+11:35:25.130: (I)  5288:                     : threadProc()                            : encoder closed
+11:35:25.223: (I)  5288:                     : threadProc()                            : shutdown encoding mediaprocessor
+11:35:25.251: (I)  5288:                     : threadProc()                            : checking encoding result...
+11:35:25.251: (I) 11184: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+11:35:25.418: (W)  5288:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:35:25.418: (I)  5288:                     : threadProc()                            : encoding done
+11:35:39.624: (I) 11184: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+11:35:49.374: (I) 11184: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+11:35:49.374: (I) 11184: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+11:35:49.390: (I) 11184: ui.player           : Player::~Player                         : Entering 'Delete player'
+11:35:49.484: (I) 11184: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 94
+11:35:49.541: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+11:35:49.559: (I) 11184: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 18
+11:35:49.559: (I) 11184:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+11:35:51.380: (I) 11184:                     : MetricSender::waitForSendAllImpl()      : Metrics was sent in 1821 msec
+11:35:51.670: (I) 11184:                     : Application::~Application()             : App finished normally
+11:35:51.676: (I) 11184: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

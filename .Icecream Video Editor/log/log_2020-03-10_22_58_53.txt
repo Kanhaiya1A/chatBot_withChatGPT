@@ -1,0 +1,267 @@
+
+
+------------------------------------------------------------
+Application started
+22:58:53.040: (I) 28268: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+22:58:53.040: (I) 28268: ice.systeminfo      : Kernel version: "10.0.18362"
+22:58:53.040: (I) 28268: ice.systeminfo      : CPU architecture: "x86_64"
+22:58:53.040: (I) 28268: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+22:58:53.040: (I) 28268: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+22:58:53.040: (I) 28268: ice.systeminfo      : BuildVersion: "1.5.3"
+22:58:53.041: (I) 28268: ice.systeminfo      : DisplayVersion: "1.53"
+22:58:53.041: (I) 28268: ice.systeminfo      : PID: 16100
+22:58:53.041: (I) 28268: ice.systeminfo      : Main thread id: 28268
+22:58:53.041: (I) 28268: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+22:58:53.041: (I) 28268: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+22:58:53.041: (I) 28268: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+22:58:53.041: (I) 28268: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+22:58:53.041: (I) 28268: ice.systeminfo      : Screen 0: primary, scale: 85%, pixelRatio: 1, logDpi: 120, phyDpi: 141.951, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1030}
+22:58:53.041: (I) 28268: ice.systeminfo      : 
+22:58:53.049: (I) 28268: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_IN"
+22:58:53.053: (I) 28268: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+22:58:53.054: (I) 28268: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+22:58:53.054: (I) 28268: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+22:58:54.752: (I) 28268: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+22:58:55.151: (I) 28268: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+22:58:55.151: (I) 28268: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists, connect to iceUi->mainWindowCreated()
+22:58:55.248: (I) 28268: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 496 msec
+22:58:55.248: (I) 28268: app.app             : Application::init                       : Entering 'Init app'
+22:58:55.313: (I) 28268: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+22:58:55.327: (I) 28268: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+22:58:55.327: (I) 28268: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+22:58:55.327: (I) 28268: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+22:58:55.334: (I) 28268: ui.player           : Player::Player                          :     Entering 'Create player'
+22:58:55.384: (I) 28268:                     : Player::Player()                        :       Create preview DX device:  "Intel(R) UHD Graphics 630"
+22:58:55.384: (I) 28268:                     : Player::Player()                        :       --- preview context ---
+22:58:55.384: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+22:58:55.385: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+22:58:55.385: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+22:58:55.385: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+22:58:55.385: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+22:58:56.266: (I) 28268:                     : mediaimporter::mediaimporter()          :       Using 4 background workers
+22:58:56.289: (I) 28268:                     : Player::Player()                        :       Create mediaprocessor DX device:  "Intel(R) UHD Graphics 630"
+22:58:56.289: (I) 28268:                     : Player::Player()                        :       --- mediaprocessor context ---
+22:58:56.289: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+22:58:56.289: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+22:58:56.289: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+22:58:56.289: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+22:58:56.289: (I) 28268:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+22:58:56.549: (W) 26288:                     :       QObject::connect: Cannot queue arguments of type 'DeviceInitState'
+(Make sure 'DeviceInitState' is registered using qRegisterMetaType().)
+22:58:56.573: (I) 28268: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 1239
+22:58:56.898: (I) 28268: ice.windowgeometry  : IceWindow::readState()                  :     Restore saved geometry: QRect(460,165 1021x700)
+22:58:56.899: (I) 28268: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 1572
+22:58:56.983: (I) 28268: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1735
+22:58:56.983: (I) 28268: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+22:58:56.983: (I) 28268: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+22:58:56.983: (I) 28268: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/kanha/AppData/Roaming/Icecream/Icecream Video Editor/documents"
+22:58:57.004: (I) 28268: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+22:58:57.011: (I) 28268: ice.splash          : IceSplash::Private::onMinDurationReached:     Main window was created. Finish splash using MainWindow(0x183cfe26900, name="MainWindow")
+22:58:57.011: (I) 18480: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+22:58:57.243: (I) 18480: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 232
+22:58:57.244: (I) 28268: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+22:58:57.245: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+22:58:57.245: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 4
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+22:58:57.249: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+22:58:57.250: (I) 28268: ui.player           : Player::onPause()                       :       Pause: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Stopped), doc: Doc(My project 5, {eecf353b-42...)
+22:58:57.250: (I) 28696:                     : mediaprocessor::runVideo()              :       Mediaprocessor type:  "PLAY" . Thread ID:  28696
+22:58:57.313: (I) 27924:                     : mfreaderaudio::open()                   :       open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+22:58:57.317: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+22:58:57.318: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+22:58:57.319: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+22:58:57.339: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 90
+22:58:57.339: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TransitionCacher'
+22:58:57.340: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocumentChanged()
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocGraphicalDurationChanged()
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocTotalDurationChanged()
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TransitionCacher->onDocAspectRatioChanged()
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TransitionCacher'. Elapsed time: 27
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+22:58:57.366: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+22:58:57.366: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+22:58:57.366: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Tracks loaded
+22:58:57.421: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+22:58:57.421: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 55
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 55
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+22:58:57.421: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+22:58:57.422: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 1
+22:58:57.422: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+22:58:57.422: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+22:58:57.422: (I) 28268: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+22:58:57.422: (I) 28268: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 418
+22:58:57.422: (I) 28268: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 439
+22:58:57.652: (I) 28268: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+22:58:57.653: (I) 28268: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+22:58:57.653: (I) 28268: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+22:59:01.975: (I) 28268: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=1.53&pid=9&mh=e91e9cfe6bdd799ad8a936be50847486&h=1a69927ccd36ded4ff915388bb990bff"
+22:59:03.145: (I) 28268: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "1.53"
+22:59:03.145: (I) 28268: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "1.53" current version: 1.53 result: 0
+22:59:16.275: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+22:59:37.028: (W) 28696:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:59:38.141: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+22:59:40.565: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:24.156, 241560000)slider: Time(00:24.142, 241420000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:00:27.404: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:00:28.165: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:00:38.820: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:10.530, 105300000)slider: Time(00:10.511, 105110000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:03:55.242: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+23:03:55.242: (I) 26484: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:03:55.261: (I) 26484: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:03:55.261: (I) 26484: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 19
+23:03:55.345: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 103
+23:03:57.425: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:03:57.499: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 74
+23:03:58.426: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:09.500, 95000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:04:02.990: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:13.935, 139350000)slider: Time(00:13.921, 139210000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:05:08.683: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+23:05:08.683: (I) 23956: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:05:08.704: (I) 23956: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:05:08.705: (I) 23956: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 22
+23:05:08.773: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 89
+23:05:27.034: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:09.500, 95000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:05:32.697: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:15.092, 150920000)slider: Time(00:15.076, 150760000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:06:19.908: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:04.875, 48750000)slider: Time(00:04.875, 48750000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:06:32.689: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:17.484, 174840000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:06:34.758: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:11.371, 113710000)slider: Time(00:11.342, 113420000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:06:50.294: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 3'
+23:06:50.294: (I) 21888: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:06:50.320: (I) 21888: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:06:50.321: (I) 21888: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 27
+23:06:50.466: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 3'. Elapsed time: 172
+23:06:59.528: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:09.500, 95000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:07:07.410: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:17.242, 172420000)slider: Time(00:17.213, 172130000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:08:57.494: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:08:57.585: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 91
+23:13:57.603: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:13:57.636: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 36
+23:18:21.478: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+23:18:21.478: (I)  8536: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:18:21.502: (I)  8536: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:18:21.502: (I)  8536: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 24
+23:18:21.564: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 86
+23:18:27.087: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:09.500, 95000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:18:39.377: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:18:48.186: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:30.464, 304640000)slider: Time(00:30.441, 304410000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:18:51.086: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:18:55.167: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:09.500, 95000000)slider: Time(00:09.500, 95000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:19:07.458: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:19:13.763: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:27.965, 279650000)slider: Time(00:27.950, 279500000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:19:27.640: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:19:27.706: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 66
+23:19:38.532: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:19:45.952: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:19.375, 193750000)slider: Time(00:19.375, 193750000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:19:48.424: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:19:55.595: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:28.890, 288900000)slider: Time(00:28.878, 288780000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:19:57.880: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:20:11.516: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:17.375, 173750000)slider: Time(00:17.375, 173750000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:20:15.881: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:20:44.094: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:21:06.536: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:21:07.034: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(01:12.773, 727730000)slider: Time(01:12.754, 727540000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:21:07.094: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:21:07.124: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:22:54.259: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:22:54.292: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:22:54.303: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:23:46.349: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:23:47.743: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 16'
+23:23:47.743: (I) 22564: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:23:47.770: (I) 22564: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:23:47.770: (I) 22564: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 27
+23:23:47.875: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 16'. Elapsed time: 132
+23:23:47.898: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:23:58.387: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:51.000, 510000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:24:03.374: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:55.867, 558670000)slider: Time(00:55.830, 558300000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:24:27.723: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:24:27.788: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 65
+23:25:28.632: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:25:30.351: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 16'
+23:25:30.352: (I) 19376: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:25:30.376: (I) 19376: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:25:30.376: (I) 19376: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 24
+23:25:30.497: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 16'. Elapsed time: 146
+23:25:30.521: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:25:33.479: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:51.000, 510000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:25:43.848: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(01:01.245, 612450000)slider: Time(01:01.220, 612200000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:26:59.489: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:27:00.697: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 16'
+23:27:00.697: (I) 12272: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:27:00.726: (I) 12272: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:27:00.726: (I) 12272: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 29
+23:27:00.833: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 16'. Elapsed time: 136
+23:27:00.857: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:27:07.170: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:51.000, 510000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:27:28.587: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:27:32.290: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/#?????_???????_??_?????_????__?????????_?????_???-2_(_?????_???_????????_)(256kbps).mp3"
+23:27:38.501: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:35.750, 357500000)slider: Time(01:22.156, 821560000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:27:38.548: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:27:41.168: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:38.002, 380020000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:27:41.188: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:27:43.141: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:01.677, 16770000)slider: Time(00:01.663, 16630000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:29:23.608: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:29:25.188: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 16'
+23:29:25.188: (I) 29492: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:29:25.217: (I) 29492: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:29:25.218: (I) 29492: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 29
+23:29:25.304: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 16'. Elapsed time: 116
+23:29:25.323: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:29:27.788: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:29:27.875: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 87
+23:29:27.955: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:51.000, 510000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:29:34.271: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:57.175, 571750000)slider: Time(00:57.159, 571590000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:30:44.342: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:30:45.858: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 16'
+23:30:45.863: (I) 21028: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:30:45.878: (I) 21028: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:30:45.878: (I) 21028: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 15
+23:30:45.984: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 16'. Elapsed time: 126
+23:30:46.009: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:30:48.589: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:51.000, 510000000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:30:57.735: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:46.750, 467500000)slider: Time(00:59.967, 599670000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:30:57.756: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:30:59.978: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:51.000, 510000000)slider: Time(00:48.684, 486840000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:31:00.022: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:31:09.148: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:59.951, 599510000)slider: Time(00:59.930, 599300000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:34:27.883: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:34:28.015: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 135
+23:39:28.043: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:39:28.086: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 43
+23:44:28.109: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:44:28.141: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 34
+23:45:50.102: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:46:39.451: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Mangalam_Bhagwan_Vishnu(256kbps).mp3"
+23:46:39.945: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:03.875, 38750000)slider: Time(00:03.875, 38750000), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:46:46.813: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:10.628, 106280000)slider: Time(00:10.597, 105970000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:49:28.157: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:49:28.257: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 100
+23:51:09.326: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 3'
+23:51:09.326: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:51:09.345: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:51:09.346: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 20
+23:51:09.459: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 3'. Elapsed time: 133
+23:51:16.775: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 2'
+23:51:16.775: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:51:16.802: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:51:16.803: (I) 30464: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 28
+23:51:16.921: (I) 28268: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 2'. Elapsed time: 146
+23:51:22.222: (I) 28268: ui.player           : Player::onPlay()                        : Play: clk: Time(00:00.000, 0)slider: Time(00:00.000, 0), state: Player::State(Paused), doc: Doc(My project 5, {eecf353b-42...)
+23:51:44.073: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/Main_nazre_milau_to_kaise_milauWedding_statusshadi_statusNewhindi_statusLatestLove_statu(256kbps).mp3"
+23:52:12.298: (I) 27924:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/kanha/Desktop/?Raat_Din_Tujhko_Main_Yaad_Karti_Hoon?Dulhan_Wedding_Status_Video?(256kbps).mp3"
+23:52:17.366: (I) 28268: ui.player           : Player::onPause()                       : Pause: clk: Time(00:55.013, 550130000)slider: Time(00:54.994, 549940000), state: Player::State(Playing), doc: Doc(My project 5, {eecf353b-42...)
+23:54:28.266: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'
+23:54:28.341: (I) 28268: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {eecf353b-4263-4ff1-b8f7-09db0230e366}'. Elapsed time: 75
+23:55:02.298: (I) 28268: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+23:55:02.298: (I) 28268: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+23:55:02.326: (I) 28268: ui.player           : Player::~Player                         : Entering 'Delete player'
+23:55:02.373: (I) 28268: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 47
