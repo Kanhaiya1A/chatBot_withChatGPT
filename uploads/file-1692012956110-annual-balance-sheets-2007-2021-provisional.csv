@@ -1,0 +1,9 @@
+Period,Inst_sector,Inst_sector_code,Descriptor,SNA08TRANS,Asset_liability_code,Values
+2007.03,Non-corporate business enterprises,121,Closing balance total assets,LE00000,A000000,345973
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance total financial and non-financial assets,LE00000,AFA0000,99770
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance monetary gold and special drawing rights,LE00000,AFA0100,0
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance currency and deposits,LE00000,AFA0200,14773
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance debt securities,LE00000,AFA0300,1267
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance loans,LE00000,AFA0400,21229
+2007.03,Non-corporate business enterprises,121,Financial assets Closing balance equity and investment fund shares,LE00000,AFA0500,58890
+2007.03,Non-corporate business enterprises,121,"Financial assets Closing balance insurance, pension and standardised guarantee schemes",LE00000,AFA0600,285
